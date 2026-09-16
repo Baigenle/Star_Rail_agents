@@ -4,6 +4,12 @@
 
 黑塔主 Agent 负责任务编排：现役链路使用原生 Function Calling，最多执行 8 轮决策，并统一注册 10 项领域工具；JSON-ReAct 保留为兼容回退。工具覆盖角色档案、材料、RAG 问答、机制配队、养成、每周体力规划、活动攻略、玩家角色创作与创作自查。工具结果携带引用，主 Agent 返回 Validation 与 Filtering 审计元数据；玩家创作内容与官方知识库保持隔离。
 
+<p align="center">
+  <img src="docs/images/01-chat-assistant.png" alt="星穹列车智库黑塔主 Agent 对话界面" width="100%" />
+</p>
+
+<p align="center"><em>黑塔主 Agent：统一调度知识检索、剧情解析、配队、养成与规划能力。</em></p>
+
 ## 1. 当前可演示功能
 
 | 模块 | 主要能力 | 是否需要登录 |
@@ -20,6 +26,37 @@
 | 社区与审核 | 社区角色、活动攻略、AI 辅助审核、驳回、下架和恢复 | 审核需管理员 |
 
 角色养成材料绑定覆盖角色图鉴当前展示的全部角色；角色增删后可重新运行数据构建脚本同步更新。当前还包括 92 份配队资料、284 个剧情任务和 2940 个剧情场景，数量会随仓库中的规范化文件更新。
+
+### 界面预览
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>可审计的 Agent 执行过程</strong><br />
+      <img src="docs/images/02-agent-inspector.png" alt="Agent Inspector 执行过程" />
+    </td>
+    <td width="50%" valign="top">
+      <strong>角色智库与用户角色池</strong><br />
+      <img src="docs/images/03-character-catalog.png" alt="角色智库与用户角色池" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>机制知识驱动的智能配队</strong><br />
+      <img src="docs/images/04-team-recommendation.png" alt="智能配队推荐结果" />
+    </td>
+    <td width="50%" valign="top">
+      <strong>自定义角色创作工坊</strong><br />
+      <img src="docs/images/05-custom-character-workshop.png" alt="自定义角色创作工坊" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <strong>基于养成方案的每周体力规划</strong><br />
+      <img src="docs/images/06-weekly-planning.png" alt="每周养成规划" />
+    </td>
+  </tr>
+</table>
 
 ### 角色创作与玩家自助审核
 
