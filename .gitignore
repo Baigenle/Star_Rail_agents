@@ -1,0 +1,74 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+node_modules/
+dist/
+.idea/
+.vscode/
+*.log
+*.tsbuildinfo
+*.db
+vite.config.js
+vite.config.d.ts
+data/postgres/
+data/milvus/
+data/minio/
+data/etcd/
+# 仅忽略项目根目录的模型权重；不能写成 models/，否则会误伤 backend/app/models 源码。
+/models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+*.gguf
+docs/data/assets/**/*.webp
+docs/data/assets/**/*.png
+docs/data/assets/**/*.jpg
+docs/data/assets/**/*.jpeg
+docs/data/assets/**/*.gif
+
+# 本地临时与测试产物（含环境变量展开文件，敏感）
+tmp/
+backend/tmp/
+--json-out
+
+# 版本活动原始网页快照（知识已结构化进 activity_knowledge）
+docs/content_1257_版本活动/assets/
+docs/content_1257_版本活动/page.html
+
+# 大型游戏图片由用户在本地准备；保留轻量 SVG 占位图与 SHA256 清单用于复现校验。
+/docs/data/assets/characters/
+/docs/data/assets/items/
+/docs/data/assets/lightcones/
+/docs/data/assets/manifest/
+/docs/data/assets/relics/
+/docs/data/assets/browser_assets_manifest.json
+
+# 完整抓取/清洗知识库仅供本地使用。公开仓库保留处理代码、规则配置和少量示例，
+# 不直接再分发剧情原文、Wiki 文本或第三方完整数据导出。
+/docs/data_character_story/
+/docs/data_lore_pages/
+/docs/hsr_nanoka_characters/
+/docs/hsr_nanoka_items/
+/docs/clean_markdown/
+/docs/clean_relic/
+/docs/normalized_supplements/
+/docs/content_1257_版本活动/
+/docs/lightcone/
+/docs/relic/
+/docs/monster/
+/docs/activity_knowledge/
+/docs/character_skill_supplements.json
+/docs/data/assets/assets_manifest.sha256
+/docs/data/assets/assets_manifest_summary.json
+backups/
+
+# 个人文件（简历等），永不入库
+reports/

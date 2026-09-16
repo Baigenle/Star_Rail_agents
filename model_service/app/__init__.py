@@ -1,0 +1,1 @@
+"""Local BGE inference service."""

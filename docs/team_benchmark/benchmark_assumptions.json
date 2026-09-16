@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "benchmark_id": "hsr_4_4_baseline_e0s1",
+  "game_data_version": "4.4.51",
+  "status": "draft",
+  "description": "用于配队横向比较的统一练度基线。它是项目定义的实验条件，不代表玩家实际账号练度。",
+  "character": {
+    "level": 80,
+    "ascension": 6,
+    "eidolon": 0,
+    "trace_levels": {
+      "basic": 6,
+      "skill": 10,
+      "ultimate": 10,
+      "talent": 10,
+      "memosprite_skill": 6,
+      "memosprite_talent": 6,
+      "elation_skill": 6
+    },
+    "major_traces_unlocked": true,
+    "minor_trace_nodes": "all"
+  },
+  "light_cone": {
+    "level": 80,
+    "superimposition": 1,
+    "selection_policy": "同命途且可稳定获得的非限定光锥；无法满足时使用角色档案中评分最高的可验证光锥",
+    "limited_signature_allowed": false
+  },
+  "relics": {
+    "rarity": 5,
+    "level": 15,
+    "set_policy": "角色档案中第一套已验证的隧洞遗器与位面饰品",
+    "main_stats": "角色档案推荐主词条",
+    "desired_substat_rolls": 24,
+    "speed_policy": "优先满足角色档案记录的速度阈值，其余有效词条按角色定位分配"
+  },
+  "simulation": {
+    "initial_skill_points": 3,
+    "maximum_skill_points": 5,
+    "character_effect_overrides_skill_point_cap": true,
+    "initial_energy_policy": "0，除非角色秘技或关卡规则明确改变",
+    "technique_allowed": true,
+    "manual_play": true,
+    "random_seed_count": 1000,
+    "maximum_action_value": 850
+  },
+  "notes": [
+    "统计站的实战数据不得直接声称符合本基线；只有模拟结果使用本基线。",
+    "四星和五星统一按零星魂处理，以避免星魂差异污染角色机制比较。",
+    "24个有效副词条仅作为可复现实验预算，不表示所有角色拥有相同面板。"
+  ]
+}

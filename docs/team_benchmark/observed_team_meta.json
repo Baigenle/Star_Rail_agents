@@ -1,0 +1,5 @@
+{
+  "schema_version": "1.0.0",
+  "note": "实战使用率先验数据。每个 entry 对应一支 4 人队伍在特定版本与玩法下的真实使用统计。score 为 0-100 的归一化使用率/表现分，sample_size 为统计样本量，source_url 必须是可验证的 http(s) 来源。game_version 必须与角色档案 data_version（当前 4.4.51）一致，否则评分管线会自动排除该条目。数据来源注册见 source_registry.json（prydwen_moc / prydwen_pf / prydwen_as）。条目可以为空：为空时最终评分自动回退到 0.8 机械模拟 + 0.2 置信度公式。",
+  "entries": []
+}

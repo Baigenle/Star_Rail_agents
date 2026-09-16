@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0.0",
+  "game_data_version": "4.4.51",
+  "status": "synthetic_benchmark",
+  "description": "三个合成敌人基准。实际终局统计必须另存并携带关卡、版本与日期，不能覆盖这些基准。",
+  "element_matrix": [
+    "physical",
+    "fire",
+    "ice",
+    "lightning",
+    "wind",
+    "quantum",
+    "imaginary"
+  ],
+  "scenarios": [
+    {
+      "id": "single_boss",
+      "name": "单体首领",
+      "target_count": 1,
+      "elite_count": 1,
+      "wave_count": 1,
+      "base_resistance": 0.2,
+      "control_resistance": 0.5,
+      "weakness_policy": "分别对七种属性运行；汇总时同时报告弱点匹配与不匹配结果",
+      "weight": 0.34
+    },
+    {
+      "id": "dual_elite",
+      "name": "双精英",
+      "target_count": 2,
+      "elite_count": 2,
+      "wave_count": 1,
+      "base_resistance": 0.2,
+      "control_resistance": 0.3,
+      "weakness_policy": "两名敌人各包含评价队伍主输出属性弱点，并追加一个固定不同弱点",
+      "weight": 0.33
+    },
+    {
+      "id": "five_targets",
+      "name": "五目标",
+      "target_count": 5,
+      "elite_count": 1,
+      "wave_count": 3,
+      "base_resistance": 0.2,
+      "control_resistance": 0.2,
+      "weakness_policy": "精英包含主输出属性弱点；普通目标按七属性循环分配",
+      "weight": 0.33
+    }
+  ],
+  "validation": {
+    "weights_sum": 1.0,
+    "report_separately": [
+      "damage_or_score",
+      "skill_point_balance",
+      "ultimate_interval",
+      "survival_margin",
+      "control_or_cleanse_coverage"
+    ],
+    "forbid_cross_mode_direct_comparison": true
+  }
+}

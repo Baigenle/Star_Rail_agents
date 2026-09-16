@@ -1,0 +1,2827 @@
+{
+  "version": "4.4",
+  "generated_at": "2026-08-29T07:35:03.804274+00:00",
+  "scoring_note": "体系感知配队算法的唯一角色体系数据源；允许人工修订。",
+  "characters": {
+    "8010": {
+      "name": "开拓者·欢愉（星）",
+      "path": "欢愉",
+      "element": "雷",
+      "roles": [
+        "dps",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "拉条",
+        "暴击"
+      ],
+      "level80_stats": null,
+      "primary_stat": "attack",
+      "archetypes": [
+        "暴击直伤"
+      ],
+      "engine_tags": [
+        "拉条"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "战技拉条并输出暴击伤害。",
+      "model": "zhipu-pro"
+    },
+    "8009": {
+      "name": "开拓者·欢愉（穹）",
+      "path": "欢愉",
+      "element": "雷",
+      "roles": [
+        "dps",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "拉条",
+        "暴击"
+      ],
+      "level80_stats": null,
+      "primary_stat": "attack",
+      "archetypes": [
+        "暴击直伤"
+      ],
+      "engine_tags": [
+        "拉条"
+      ],
+      "sp_profile": "neutral",
+      "core_mechanic": "暴击直伤并拉条",
+      "model": "zhipu-pro"
+    },
+    "8008": {
+      "name": "开拓者·记忆（星）",
+      "path": "记忆",
+      "element": "冰",
+      "roles": [
+        "dps",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "召唤",
+        "拉条",
+        "暴击"
+      ],
+      "level80_stats": null,
+      "primary_stat": "attack",
+      "archetypes": [
+        "召唤",
+        "记忆忆灵"
+      ],
+      "engine_tags": [
+        "拉条"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "战技召唤与拉条，普攻产点维持循环。",
+      "model": "zhipu-pro"
+    },
+    "8007": {
+      "name": "开拓者·记忆（穹）",
+      "path": "记忆",
+      "element": "冰",
+      "roles": [
+        "dps",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "召唤",
+        "拉条",
+        "暴击"
+      ],
+      "level80_stats": null,
+      "primary_stat": "attack",
+      "archetypes": [
+        "召唤"
+      ],
+      "engine_tags": [
+        "拉条",
+        "召唤"
+      ],
+      "sp_profile": "neutral",
+      "core_mechanic": "战技召唤忆灵，普攻触发协同与拉条。",
+      "model": "zhipu-pro"
+    },
+    "8006": {
+      "name": "开拓者·同谐（星）",
+      "path": "同谐",
+      "element": "虚数",
+      "roles": [
+        "support"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "击破"
+      ],
+      "level80_stats": null,
+      "primary_stat": "attack",
+      "archetypes": [
+        "增益辅助",
+        "超击破"
+      ],
+      "engine_tags": [
+        "全队增伤",
+        "击破特攻"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "战技耗点增益，普攻产点，终结技回能。",
+      "model": "zhipu-pro"
+    },
+    "8005": {
+      "name": "开拓者·同谐（穹）",
+      "path": "同谐",
+      "element": "虚数",
+      "roles": [
+        "support"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "击破"
+      ],
+      "level80_stats": null,
+      "primary_stat": "attack",
+      "archetypes": [
+        "增益辅助",
+        "减抗辅助"
+      ],
+      "engine_tags": [
+        "充能",
+        "减抗",
+        "提速"
+      ],
+      "sp_profile": "positive",
+      "core_mechanic": "战技施放增益，普攻产点，循环维持全队输出环境。",
+      "model": "zhipu-pro"
+    },
+    "8004": {
+      "name": "开拓者·存护（星）",
+      "path": "存护",
+      "element": "火",
+      "roles": [
+        "sustain"
+      ],
+      "mechanic_tags": [
+        "护盾"
+      ],
+      "level80_stats": null,
+      "primary_stat": "attack",
+      "archetypes": [
+        "生存辅助",
+        "追加攻击"
+      ],
+      "engine_tags": [
+        "护盾",
+        "反击"
+      ],
+      "sp_profile": "positive",
+      "core_mechanic": "施放战技提供护盾，受击时触发反击。",
+      "model": "zhipu-pro"
+    },
+    "8003": {
+      "name": "开拓者·存护（穹）",
+      "path": "存护",
+      "element": "火",
+      "roles": [
+        "sustain"
+      ],
+      "mechanic_tags": [
+        "护盾"
+      ],
+      "level80_stats": null,
+      "primary_stat": "attack",
+      "archetypes": [
+        "生存辅助"
+      ],
+      "engine_tags": [
+        "护盾"
+      ],
+      "sp_profile": "neutral",
+      "core_mechanic": "施放战技获得护盾，受击时触发追加攻击。",
+      "model": "zhipu-pro"
+    },
+    "8002": {
+      "name": "开拓者·毁灭（星）",
+      "path": "毁灭",
+      "element": "物理",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "击破"
+      ],
+      "level80_stats": null,
+      "primary_stat": "attack",
+      "archetypes": [
+        "暴击直伤"
+      ],
+      "engine_tags": [
+        "减抗",
+        "击破"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "战技输出并减防，需频繁消耗战技点。",
+      "model": "zhipu-pro"
+    },
+    "8001": {
+      "name": "开拓者·毁灭（穹）",
+      "path": "毁灭",
+      "element": "物理",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "击破"
+      ],
+      "level80_stats": null,
+      "primary_stat": "attack",
+      "archetypes": [
+        "暴击直伤"
+      ],
+      "engine_tags": [
+        "减抗",
+        "充能"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "战技削韧减抗，击破回能，终结技爆发。",
+      "model": "zhipu-pro"
+    },
+    "1510": {
+      "name": "姬子·启行",
+      "path": "智识",
+      "element": "火",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "击破",
+        "暴击"
+      ],
+      "level80_stats": null,
+      "primary_stat": "attack",
+      "archetypes": [
+        "追加攻击",
+        "暴击直伤"
+      ],
+      "engine_tags": [
+        "减抗",
+        "击破转化"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "消耗战技点施放战技触发追加攻击。",
+      "model": "zhipu-pro"
+    },
+    "1509": {
+      "name": "吉尔伽美什",
+      "path": "毁灭",
+      "element": "雷",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "减防",
+        "追加攻击"
+      ],
+      "level80_stats": {
+        "hp": 1125.0,
+        "attack": 718.0,
+        "defense": 509.0,
+        "speed": 97.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "暴击直伤",
+        "追加攻击"
+      ],
+      "engine_tags": [
+        "充能",
+        "产战技点"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "叠兴致开战技，叠计数触发连携追击。",
+      "model": "zhipu-pro"
+    },
+    "1508": {
+      "name": "远坂凛",
+      "path": "智识",
+      "element": "量子",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "暴击",
+        "追加攻击"
+      ],
+      "level80_stats": {
+        "hp": 1048.0,
+        "attack": 699.0,
+        "defense": 461.0,
+        "speed": 102.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "暴击直伤",
+        "追加攻击"
+      ],
+      "engine_tags": [
+        "产战技点"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "消耗战技点获暴伤，触发连携追加攻击回血。",
+      "model": "zhipu-pro"
+    },
+    "1507": {
+      "name": "千冶·刃",
+      "path": "虚无",
+      "element": "火",
+      "roles": [
+        "support",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "减防",
+        "暴击",
+        "追加攻击"
+      ],
+      "level80_stats": null,
+      "primary_stat": "attack",
+      "archetypes": [
+        "暴击直伤",
+        "追加攻击"
+      ],
+      "engine_tags": [
+        "减防"
+      ],
+      "sp_profile": "neutral",
+      "core_mechanic": "战技施加减防并触发追加攻击输出。",
+      "model": "zhipu-pro"
+    },
+    "1506": {
+      "name": "银狼LV.999",
+      "path": "欢愉",
+      "element": "虚数",
+      "roles": [
+        "dps",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "拉条",
+        "暴击"
+      ],
+      "level80_stats": {
+        "hp": 1048.0,
+        "attack": 388.0,
+        "defense": 655.0,
+        "speed": 110.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "暴击直伤"
+      ],
+      "engine_tags": [
+        "拉条",
+        "产战技点"
+      ],
+      "sp_profile": "neutral",
+      "core_mechanic": "战技积攒隐藏分开大，队友耗点触发追击并回点。",
+      "model": "zhipu-pro"
+    },
+    "1505": {
+      "name": "绯英",
+      "path": "欢愉",
+      "element": "物理",
+      "roles": [
+        "dps",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "暴击",
+        "追加攻击"
+      ],
+      "level80_stats": {
+        "hp": 1048.0,
+        "attack": 737.0,
+        "defense": 461.0,
+        "speed": 104.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "暴击直伤",
+        "追加攻击"
+      ],
+      "engine_tags": [
+        "充能"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "能量与好活当赏互换，累计触发追加攻击。",
+      "model": "zhipu-pro"
+    },
+    "1504": {
+      "name": "不死途",
+      "path": "巡猎",
+      "element": "雷",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "减防",
+        "追加攻击"
+      ],
+      "level80_stats": {
+        "hp": 854.0,
+        "attack": 776.0,
+        "defense": 388.0,
+        "speed": 106.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "追加攻击",
+        "暴击直伤"
+      ],
+      "engine_tags": [
+        "产战技点"
+      ],
+      "sp_profile": "neutral",
+      "core_mechanic": "战技挂饵回点，队友攻击触发追加攻击。",
+      "model": "zhipu-pro"
+    },
+    "1502": {
+      "name": "爻光",
+      "path": "欢愉",
+      "element": "物理",
+      "roles": [
+        "dps",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "减抗"
+      ],
+      "level80_stats": {
+        "hp": 1242.0,
+        "attack": 466.0,
+        "defense": 655.0,
+        "speed": 101.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "追加攻击",
+        "减抗辅助"
+      ],
+      "engine_tags": [
+        "协同攻击",
+        "全属性抗性穿透",
+        "易伤"
+      ],
+      "sp_profile": "positive",
+      "core_mechanic": "战技维持结界，普攻战技产笑点，终结技消耗笑点",
+      "model": "zhipu-pro"
+    },
+    "1501": {
+      "name": "火花",
+      "path": "欢愉",
+      "element": "火",
+      "roles": [
+        "dps",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "多段攻击",
+        "强化普攻",
+        "战技点",
+        "扩散",
+        "随机"
+      ],
+      "level80_stats": {
+        "hp": 1048.0,
+        "attack": 640.0,
+        "defense": 461.0,
+        "speed": 107.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "暴击直伤"
+      ],
+      "engine_tags": [
+        "产战技点"
+      ],
+      "sp_profile": "positive",
+      "core_mechanic": "战技开启连线，强化普攻产点并随机回点。",
+      "model": "zhipu-pro"
+    },
+    "1415": {
+      "name": "昔涟",
+      "path": "记忆",
+      "element": "冰",
+      "roles": [
+        "dps",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "召唤",
+        "暴击"
+      ],
+      "level80_stats": {
+        "hp": 1397.0,
+        "attack": 446.0,
+        "defense": 582.0,
+        "speed": 101.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "记忆忆灵",
+        "暴击直伤"
+      ],
+      "engine_tags": [
+        "召唤",
+        "暴击"
+      ],
+      "sp_profile": "neutral",
+      "core_mechanic": "忆灵体系输出，暴击配合召唤行动。",
+      "model": "manual_review"
+    },
+    "1414": {
+      "name": "丹恒·腾荒",
+      "path": "存护",
+      "element": "物理",
+      "roles": [
+        "sustain"
+      ],
+      "mechanic_tags": [
+        "护盾",
+        "追加攻击"
+      ],
+      "level80_stats": null,
+      "primary_stat": "attack",
+      "archetypes": [
+        "生存辅助",
+        "追加攻击"
+      ],
+      "engine_tags": [
+        "护盾",
+        "追加攻击"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "战技施放护盾，受击或施放战技触发追击。",
+      "model": "zhipu-pro"
+    },
+    "1413": {
+      "name": "长夜月",
+      "path": "记忆",
+      "element": "冰",
+      "roles": [
+        "dps",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "召唤",
+        "拉条",
+        "暴击"
+      ],
+      "level80_stats": {
+        "hp": 1319.0,
+        "attack": 543.0,
+        "defense": 582.0,
+        "speed": 99.0
+      },
+      "primary_stat": "hp",
+      "archetypes": [
+        "记忆忆灵",
+        "暴击直伤"
+      ],
+      "engine_tags": [
+        "召唤",
+        "拉条"
+      ],
+      "sp_profile": "neutral",
+      "core_mechanic": "消耗生命召唤忆灵，积攒忆质拉条忆灵协同输出。",
+      "model": "zhipu-pro"
+    },
+    "1412": {
+      "name": "刻律德菈",
+      "path": "同谐",
+      "element": "风",
+      "roles": [
+        "support"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "暴击"
+      ],
+      "level80_stats": {
+        "hp": 1358.0,
+        "attack": 621.0,
+        "defense": 485.0,
+        "speed": 99.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "增益辅助"
+      ],
+      "engine_tags": [
+        "减抗",
+        "暴击"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "爵位增益引擎：提升战技伤害并拉条。",
+      "model": "manual_review"
+    },
+    "1410": {
+      "name": "海瑟音",
+      "path": "虚无",
+      "element": "物理",
+      "roles": [
+        "support",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "减防",
+        "持续伤害"
+      ],
+      "level80_stats": {
+        "hp": 1203.0,
+        "attack": 602.0,
+        "defense": 485.0,
+        "speed": 102.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "持续伤害",
+        "减抗辅助"
+      ],
+      "engine_tags": [
+        "减防",
+        "持续伤害"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "多重 DoT 与减防，效果命中转伤害。",
+      "model": "manual_review"
+    },
+    "1409": {
+      "name": "风堇",
+      "path": "记忆",
+      "element": "风",
+      "roles": [
+        "dps",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "召唤",
+        "拉条",
+        "治疗",
+        "能量"
+      ],
+      "level80_stats": {
+        "hp": 1087.0,
+        "attack": 388.0,
+        "defense": 631.0,
+        "speed": 110.0
+      },
+      "primary_stat": "hp",
+      "archetypes": [
+        "记忆忆灵",
+        "生存辅助"
+      ],
+      "engine_tags": [
+        "召唤",
+        "拉条",
+        "治疗",
+        "能量"
+      ],
+      "sp_profile": "positive",
+      "core_mechanic": "忆灵治疗体系：治疗与忆灵行动双引擎。",
+      "model": "manual_review"
+    },
+    "1408": {
+      "name": "白厄",
+      "path": "毁灭",
+      "element": "物理",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "拉条",
+        "暴击"
+      ],
+      "level80_stats": {
+        "hp": 1436.0,
+        "attack": 582.0,
+        "defense": 703.0,
+        "speed": 94.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "暴击直伤"
+      ],
+      "engine_tags": [
+        "减抗",
+        "拉条",
+        "暴击"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "命运塑造形态的暴击主C，终结技变身自拉条。",
+      "model": "manual_review"
+    },
+    "1407": {
+      "name": "遐蝶",
+      "path": "记忆",
+      "element": "量子",
+      "roles": [
+        "dps",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "召唤",
+        "拉条"
+      ],
+      "level80_stats": {
+        "hp": 1630.0,
+        "attack": 524.0,
+        "defense": 485.0,
+        "speed": 95.0
+      },
+      "primary_stat": "hp",
+      "archetypes": [
+        "记忆忆灵",
+        "暴击直伤"
+      ],
+      "engine_tags": [
+        "减抗",
+        "召唤",
+        "拉条"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "死龙忆灵体系核心，生命缩放并减全抗。",
+      "model": "manual_review"
+    },
+    "1406": {
+      "name": "赛飞儿",
+      "path": "虚无",
+      "element": "量子",
+      "roles": [
+        "support",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "追加攻击"
+      ],
+      "level80_stats": {
+        "hp": 931.0,
+        "attack": 640.0,
+        "defense": 509.0,
+        "speed": 106.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "追加攻击",
+        "减抗辅助"
+      ],
+      "engine_tags": [
+        "追加攻击"
+      ],
+      "sp_profile": "neutral",
+      "core_mechanic": "记录伤害转追击的虚无辅助。",
+      "model": "manual_review"
+    },
+    "1405": {
+      "name": "那刻夏",
+      "path": "智识",
+      "element": "风",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "减抗"
+      ],
+      "level80_stats": {
+        "hp": 970.0,
+        "attack": 757.0,
+        "defense": 558.0,
+        "speed": 97.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "暴击直伤",
+        "减抗辅助"
+      ],
+      "engine_tags": [
+        "减抗"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "植入弱点与质性揭露的智识，debuff 高频施加。",
+      "model": "manual_review"
+    },
+    "1404": {
+      "name": "万敌",
+      "path": "毁灭",
+      "element": "虚数",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "拉条"
+      ],
+      "level80_stats": {
+        "hp": 1552.0,
+        "attack": 427.0,
+        "defense": 194.0,
+        "speed": 95.0
+      },
+      "primary_stat": "hp",
+      "archetypes": [
+        "暴击直伤"
+      ],
+      "engine_tags": [
+        "拉条"
+      ],
+      "sp_profile": "neutral",
+      "core_mechanic": "生命消耗换输出的毁灭主C，自动拉条。",
+      "model": "manual_review"
+    },
+    "1403": {
+      "name": "缇宝",
+      "path": "同谐",
+      "element": "量子",
+      "roles": [
+        "support"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "追加攻击"
+      ],
+      "level80_stats": {
+        "hp": 1048.0,
+        "attack": 524.0,
+        "defense": 728.0,
+        "speed": 96.0
+      },
+      "primary_stat": "hp",
+      "archetypes": [
+        "增益辅助",
+        "追加攻击"
+      ],
+      "engine_tags": [
+        "减抗",
+        "追加攻击"
+      ],
+      "sp_profile": "neutral",
+      "core_mechanic": "生命_scale的减抗辅助，全队受击触发追击。",
+      "model": "manual_review"
+    },
+    "1402": {
+      "name": "阿格莱雅",
+      "path": "记忆",
+      "element": "雷",
+      "roles": [
+        "dps",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "召唤",
+        "拉条",
+        "能量"
+      ],
+      "level80_stats": {
+        "hp": 1242.0,
+        "attack": 699.0,
+        "defense": 485.0,
+        "speed": 102.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "召唤",
+        "记忆忆灵"
+      ],
+      "engine_tags": [
+        "召唤",
+        "拉条",
+        "能量"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "忆灵召唤主C，能量循环支撑高频行动。",
+      "model": "manual_review"
+    },
+    "1401": {
+      "name": "大黑塔",
+      "path": "智识",
+      "element": "冰",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "拉条"
+      ],
+      "level80_stats": {
+        "hp": 1164.0,
+        "attack": 679.0,
+        "defense": 485.0,
+        "speed": 99.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "暴击直伤"
+      ],
+      "engine_tags": [
+        "拉条"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "魔灵紫叠层群攻主C，终结技自拉条再爆发。",
+      "model": "manual_review"
+    },
+    "1321": {
+      "name": "大丽花",
+      "path": "虚无",
+      "element": "火",
+      "roles": [
+        "support",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "减防",
+        "击破",
+        "追加攻击"
+      ],
+      "level80_stats": {
+        "hp": 1087.0,
+        "attack": 679.0,
+        "defense": 606.0,
+        "speed": 96.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "超击破",
+        "减抗辅助"
+      ],
+      "engine_tags": [
+        "减抗",
+        "减防",
+        "击破",
+        "追加攻击"
+      ],
+      "sp_profile": "neutral",
+      "core_mechanic": "侵染减抗与追击的击破辅助。",
+      "model": "manual_review"
+    },
+    "1317": {
+      "name": "乱破",
+      "path": "智识",
+      "element": "虚数",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "击破"
+      ],
+      "level80_stats": {
+        "hp": 1087.0,
+        "attack": 718.0,
+        "defense": 461.0,
+        "speed": 96.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "超击破"
+      ],
+      "engine_tags": [
+        "减抗",
+        "击破"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "智识击破输出，强化普攻清杂并减抗。",
+      "model": "manual_review"
+    },
+    "1315": {
+      "name": "波提欧",
+      "path": "巡猎",
+      "element": "物理",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "击破",
+        "能量"
+      ],
+      "level80_stats": {
+        "hp": 1203.0,
+        "attack": 621.0,
+        "defense": 437.0,
+        "speed": 107.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "超击破"
+      ],
+      "engine_tags": [
+        "减抗",
+        "击破",
+        "能量"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "击破特攻转攻击的巡猎，盗贼决斗拉条。",
+      "model": "manual_review"
+    },
+    "1314": {
+      "name": "翡翠",
+      "path": "智识",
+      "element": "量子",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "暴击",
+        "追加攻击"
+      ],
+      "level80_stats": {
+        "hp": 1087.0,
+        "attack": 660.0,
+        "defense": 509.0,
+        "speed": 103.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "追加攻击",
+        "暴击直伤"
+      ],
+      "engine_tags": [
+        "暴击",
+        "追加攻击"
+      ],
+      "sp_profile": "neutral",
+      "core_mechanic": "古董收租追击的智识群攻。",
+      "model": "manual_review"
+    },
+    "1313": {
+      "name": "星期日",
+      "path": "同谐",
+      "element": "虚数",
+      "roles": [
+        "support"
+      ],
+      "mechanic_tags": [
+        "召唤",
+        "拉条",
+        "暴击"
+      ],
+      "level80_stats": {
+        "hp": 1242.0,
+        "attack": 640.0,
+        "defense": 534.0,
+        "speed": 96.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "增益辅助"
+      ],
+      "engine_tags": [
+        "召唤",
+        "拉条",
+        "暴击"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "召唤物与忆灵拉条引擎，提升暴伤并回能。",
+      "model": "manual_review"
+    },
+    "1310": {
+      "name": "流萤",
+      "path": "毁灭",
+      "element": "火",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "击破",
+        "拉条",
+        "能量"
+      ],
+      "level80_stats": {
+        "hp": 815.0,
+        "attack": 524.0,
+        "defense": 776.0,
+        "speed": 104.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "超击破"
+      ],
+      "engine_tags": [
+        "减抗",
+        "击破",
+        "拉条",
+        "能量"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "击破转攻击的超击破主C，终结技进入强化态。",
+      "model": "manual_review"
+    },
+    "1309": {
+      "name": "知更鸟",
+      "path": "同谐",
+      "element": "物理",
+      "roles": [
+        "support"
+      ],
+      "mechanic_tags": [
+        "拉条",
+        "暴击"
+      ],
+      "level80_stats": {
+        "hp": 1281.0,
+        "attack": 640.0,
+        "defense": 485.0,
+        "speed": 102.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "增益辅助"
+      ],
+      "engine_tags": [
+        "拉条",
+        "暴击"
+      ],
+      "sp_profile": "neutral",
+      "core_mechanic": "全队拉条与追击暴伤加成，协奏期强化追击队。",
+      "model": "manual_review"
+    },
+    "1308": {
+      "name": "黄泉",
+      "path": "虚无",
+      "element": "雷",
+      "roles": [
+        "support",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "击破"
+      ],
+      "level80_stats": {
+        "hp": 1125.0,
+        "attack": 699.0,
+        "defense": 437.0,
+        "speed": 101.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "黄泉充能"
+      ],
+      "engine_tags": [
+        "减抗",
+        "击破"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "施加 debuff 充能终结技的减抗输出。",
+      "model": "manual_review"
+    },
+    "1307": {
+      "name": "黑天鹅",
+      "path": "虚无",
+      "element": "风",
+      "roles": [
+        "support",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "减防",
+        "持续伤害"
+      ],
+      "level80_stats": {
+        "hp": 1087.0,
+        "attack": 660.0,
+        "defense": 485.0,
+        "speed": 102.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "持续伤害",
+        "减抗辅助"
+      ],
+      "engine_tags": [
+        "减防",
+        "持续伤害"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "奥迹叠层 DoT 核心，依赖多种 debuff 叠加。",
+      "model": "manual_review"
+    },
+    "1306": {
+      "name": "花火",
+      "path": "同谐",
+      "element": "量子",
+      "roles": [
+        "support"
+      ],
+      "mechanic_tags": [
+        "拉条",
+        "暴击"
+      ],
+      "level80_stats": {
+        "hp": 1397.0,
+        "attack": 524.0,
+        "defense": 485.0,
+        "speed": 101.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "增益辅助"
+      ],
+      "engine_tags": [
+        "拉条",
+        "暴击"
+      ],
+      "sp_profile": "positive",
+      "core_mechanic": "战技点引擎：产点同时拉条与提升暴击伤害。",
+      "model": "manual_review"
+    },
+    "1305": {
+      "name": "真理医生",
+      "path": "巡猎",
+      "element": "虚数",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "追加攻击"
+      ],
+      "level80_stats": {
+        "hp": 1048.0,
+        "attack": 776.0,
+        "defense": 461.0,
+        "speed": 103.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "追加攻击"
+      ],
+      "engine_tags": [
+        "追加攻击"
+      ],
+      "sp_profile": "neutral",
+      "core_mechanic": "追击输出并施加易伤，被追击目标增伤。",
+      "model": "manual_review"
+    },
+    "1304": {
+      "name": "砂金",
+      "path": "存护",
+      "element": "虚数",
+      "roles": [
+        "sustain"
+      ],
+      "mechanic_tags": [
+        "护盾",
+        "暴击",
+        "追加攻击"
+      ],
+      "level80_stats": {
+        "hp": 1203.0,
+        "attack": 446.0,
+        "defense": 655.0,
+        "speed": 106.0
+      },
+      "primary_stat": "defense",
+      "archetypes": [
+        "生存辅助",
+        "追加攻击"
+      ],
+      "engine_tags": [
+        "护盾",
+        "暴击",
+        "追加攻击"
+      ],
+      "sp_profile": "positive",
+      "core_mechanic": "防御转护盾与追击的生存位，盾量吃防御。",
+      "model": "manual_review"
+    },
+    "1303": {
+      "name": "阮·梅",
+      "path": "同谐",
+      "element": "冰",
+      "roles": [
+        "support"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "击破"
+      ],
+      "level80_stats": null,
+      "primary_stat": "attack",
+      "archetypes": [
+        "超击破",
+        "增益辅助"
+      ],
+      "engine_tags": [
+        "减抗",
+        "击破"
+      ],
+      "sp_profile": "neutral",
+      "core_mechanic": "击破效率与减抗核心，延长弱击破窗口。",
+      "model": "manual_review"
+    },
+    "1302": {
+      "name": "银枝",
+      "path": "智识",
+      "element": "物理",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "暴击"
+      ],
+      "level80_stats": {
+        "hp": 1048.0,
+        "attack": 737.0,
+        "defense": 364.0,
+        "speed": 103.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "暴击直伤"
+      ],
+      "engine_tags": [
+        "暴击"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "终结技群爆的智识输出，依赖能量循环。",
+      "model": "manual_review"
+    },
+    "1225": {
+      "name": "忘归人",
+      "path": "虚无",
+      "element": "火",
+      "roles": [
+        "support",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "减防",
+        "击破",
+        "拉条"
+      ],
+      "level80_stats": {
+        "hp": 1125.0,
+        "attack": 582.0,
+        "defense": 558.0,
+        "speed": 102.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "超击破",
+        "减抗辅助"
+      ],
+      "engine_tags": [
+        "减抗",
+        "减防",
+        "击破",
+        "拉条"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "超击破引擎：附加弱点与外韧削减，开启全队超击破。",
+      "model": "manual_review"
+    },
+    "1222": {
+      "name": "灵砂",
+      "path": "丰饶",
+      "element": "火",
+      "roles": [
+        "sustain"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "击破",
+        "拉条",
+        "追加攻击"
+      ],
+      "level80_stats": {
+        "hp": 1358.0,
+        "attack": 679.0,
+        "defense": 437.0,
+        "speed": 98.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "生存辅助",
+        "追加攻击"
+      ],
+      "engine_tags": [
+        "减抗",
+        "击破",
+        "拉条",
+        "追加攻击"
+      ],
+      "sp_profile": "positive",
+      "core_mechanic": "击破拉条的丰饶生存，自带追击输出。",
+      "model": "manual_review"
+    },
+    "1221": {
+      "name": "云璃",
+      "path": "毁灭",
+      "element": "物理",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "暴击"
+      ],
+      "level80_stats": {
+        "hp": 1358.0,
+        "attack": 679.0,
+        "defense": 461.0,
+        "speed": 94.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "暴击直伤",
+        "追加攻击"
+      ],
+      "engine_tags": [
+        "暴击"
+      ],
+      "sp_profile": "neutral",
+      "core_mechanic": "受击反制格挡反击的暴击输出。",
+      "model": "manual_review"
+    },
+    "1220": {
+      "name": "飞霄",
+      "path": "巡猎",
+      "element": "风",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "击破",
+        "追加攻击"
+      ],
+      "level80_stats": {
+        "hp": 1048.0,
+        "attack": 602.0,
+        "defense": 388.0,
+        "speed": 112.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "追加攻击"
+      ],
+      "engine_tags": [
+        "减抗",
+        "击破",
+        "追加攻击"
+      ],
+      "sp_profile": "neutral",
+      "core_mechanic": "全队攻击次数充能的追击主C，队内引擎核心。",
+      "model": "manual_review"
+    },
+    "1218": {
+      "name": "椒丘",
+      "path": "虚无",
+      "element": "火",
+      "roles": [
+        "support",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "持续伤害"
+      ],
+      "level80_stats": {
+        "hp": 1358.0,
+        "attack": 602.0,
+        "defense": 509.0,
+        "speed": 98.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "持续伤害",
+        "减抗辅助"
+      ],
+      "engine_tags": [
+        "持续伤害"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "灼烧蔓延与减防，黄泉充能高频部件。",
+      "model": "manual_review"
+    },
+    "1217": {
+      "name": "藿藿",
+      "path": "丰饶",
+      "element": "风",
+      "roles": [
+        "sustain"
+      ],
+      "mechanic_tags": [
+        "治疗"
+      ],
+      "level80_stats": {
+        "hp": 1358.0,
+        "attack": 602.0,
+        "defense": 509.0,
+        "speed": 98.0
+      },
+      "primary_stat": "hp",
+      "archetypes": [
+        "生存辅助",
+        "增益辅助"
+      ],
+      "engine_tags": [
+        "治疗"
+      ],
+      "sp_profile": "positive",
+      "core_mechanic": "治疗回能净化三合一，治疗量吃生命上限。",
+      "model": "manual_review"
+    },
+    "1213": {
+      "name": "丹恒·饮月",
+      "path": "毁灭",
+      "element": "虚数",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "暴击"
+      ],
+      "level80_stats": null,
+      "primary_stat": "attack",
+      "archetypes": [
+        "暴击直伤"
+      ],
+      "engine_tags": [
+        "暴击"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "消耗战技点强化攻击的龙形态输出。",
+      "model": "manual_review"
+    },
+    "1212": {
+      "name": "镜流",
+      "path": "毁灭",
+      "element": "冰",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "拉条",
+        "暴击"
+      ],
+      "level80_stats": {
+        "hp": 1436.0,
+        "attack": 679.0,
+        "defense": 485.0,
+        "speed": 96.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "暴击直伤"
+      ],
+      "engine_tags": [
+        "拉条",
+        "暴击"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "镜魄强化态自拉条暴击输出，经典 hypercarry。",
+      "model": "manual_review"
+    },
+    "1211": {
+      "name": "白露",
+      "path": "丰饶",
+      "element": "雷",
+      "roles": [
+        "sustain"
+      ],
+      "mechanic_tags": [
+        "治疗"
+      ],
+      "level80_stats": {
+        "hp": 1319.0,
+        "attack": 563.0,
+        "defense": 485.0,
+        "speed": 98.0
+      },
+      "primary_stat": "hp",
+      "archetypes": [
+        "生存辅助"
+      ],
+      "engine_tags": [
+        "治疗"
+      ],
+      "sp_profile": "positive",
+      "core_mechanic": "群体治疗加复生庇佑，治疗量吃生命上限。",
+      "model": "manual_review"
+    },
+    "1209": {
+      "name": "彦卿",
+      "path": "巡猎",
+      "element": "冰",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "暴击",
+        "追加攻击"
+      ],
+      "level80_stats": {
+        "hp": 893.0,
+        "attack": 679.0,
+        "defense": 412.0,
+        "speed": 109.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "暴击直伤",
+        "追加攻击"
+      ],
+      "engine_tags": [
+        "暴击",
+        "追加攻击"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "高暴击巡猎，受增益时触发追加攻击。",
+      "model": "manual_review"
+    },
+    "1208": {
+      "name": "符玄",
+      "path": "存护",
+      "element": "量子",
+      "roles": [
+        "sustain",
+        "support"
+      ],
+      "mechanic_tags": [
+        "减伤",
+        "护盾",
+        "暴击"
+      ],
+      "level80_stats": {
+        "hp": 1475.0,
+        "attack": 466.0,
+        "defense": 606.0,
+        "speed": 100.0
+      },
+      "primary_stat": "hp",
+      "archetypes": [
+        "生存辅助"
+      ],
+      "engine_tags": [
+        "减伤",
+        "护盾",
+        "暴击"
+      ],
+      "sp_profile": "neutral",
+      "core_mechanic": "伤害分摊与暴击率光环，提供队伍生存兜底。",
+      "model": "manual_review"
+    },
+    "1205": {
+      "name": "刃",
+      "path": "毁灭",
+      "element": "风",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "能量",
+        "追加攻击"
+      ],
+      "level80_stats": {
+        "hp": 1358.0,
+        "attack": 543.0,
+        "defense": 485.0,
+        "speed": 97.0
+      },
+      "primary_stat": "hp",
+      "archetypes": [
+        "暴击直伤",
+        "追加攻击"
+      ],
+      "engine_tags": [
+        "能量",
+        "追加攻击"
+      ],
+      "sp_profile": "positive",
+      "core_mechanic": "生命消耗转输出的追击主C，强化普攻产点。",
+      "model": "manual_review"
+    },
+    "1204": {
+      "name": "景元",
+      "path": "智识",
+      "element": "雷",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "召唤",
+        "追加攻击"
+      ],
+      "level80_stats": {
+        "hp": 1164.0,
+        "attack": 699.0,
+        "defense": 485.0,
+        "speed": 99.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "召唤",
+        "追加攻击"
+      ],
+      "engine_tags": [
+        "召唤",
+        "追加攻击"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "神君召唤体系主C，多段追加攻击输出。",
+      "model": "manual_review"
+    },
+    "1203": {
+      "name": "罗刹",
+      "path": "丰饶",
+      "element": "虚数",
+      "roles": [
+        "sustain"
+      ],
+      "mechanic_tags": [
+        "净化",
+        "治疗",
+        "自动治疗",
+        "驱散"
+      ],
+      "level80_stats": {
+        "hp": 1281.0,
+        "attack": 757.0,
+        "defense": 364.0,
+        "speed": 101.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "生存辅助"
+      ],
+      "engine_tags": [
+        "净化",
+        "治疗",
+        "自动治疗",
+        "驱散"
+      ],
+      "sp_profile": "positive",
+      "core_mechanic": "被动自动治疗加净化驱散，治疗量吃攻击力。",
+      "model": "manual_review"
+    },
+    "1112": {
+      "name": "托帕&账账",
+      "path": "巡猎",
+      "element": "火",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "召唤",
+        "拉条",
+        "暴击",
+        "追加攻击"
+      ],
+      "level80_stats": {
+        "hp": 931.0,
+        "attack": 621.0,
+        "defense": 412.0,
+        "speed": 110.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "追加攻击"
+      ],
+      "engine_tags": [
+        "召唤",
+        "拉条",
+        "暴击",
+        "追加攻击"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "账账追击主C，负债标记易伤放大全队追击。",
+      "model": "manual_review"
+    },
+    "1107": {
+      "name": "克拉拉",
+      "path": "毁灭",
+      "element": "物理",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "减伤",
+        "反击",
+        "嘲讽",
+        "追加攻击"
+      ],
+      "level80_stats": {
+        "hp": 1242.0,
+        "attack": 737.0,
+        "defense": 485.0,
+        "speed": 90.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "追加攻击",
+        "暴击直伤"
+      ],
+      "engine_tags": [
+        "减伤",
+        "反击",
+        "嘲讽",
+        "追加攻击"
+      ],
+      "sp_profile": "neutral",
+      "core_mechanic": "受击反制追击体系主C，自带减伤与嘲讽。",
+      "model": "manual_review"
+    },
+    "1104": {
+      "name": "杰帕德",
+      "path": "存护",
+      "element": "冰",
+      "roles": [
+        "sustain"
+      ],
+      "mechanic_tags": [
+        "护盾"
+      ],
+      "level80_stats": {
+        "hp": 1397.0,
+        "attack": 543.0,
+        "defense": 655.0,
+        "speed": 92.0
+      },
+      "primary_stat": "defense",
+      "archetypes": [
+        "生存辅助"
+      ],
+      "engine_tags": [
+        "护盾"
+      ],
+      "sp_profile": "positive",
+      "core_mechanic": "全队大盾抵挡爆发，护盾量吃防御力。",
+      "model": "manual_review"
+    },
+    "1102": {
+      "name": "希儿",
+      "path": "巡猎",
+      "element": "量子",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "再现",
+        "暴击"
+      ],
+      "level80_stats": {
+        "hp": 931.0,
+        "attack": 640.0,
+        "defense": 364.0,
+        "speed": 115.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "暴击直伤"
+      ],
+      "engine_tags": [
+        "再现",
+        "暴击"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "量子巡猎，击杀再现提供额外行动。",
+      "model": "manual_review"
+    },
+    "1101": {
+      "name": "布洛妮娅",
+      "path": "同谐",
+      "element": "风",
+      "roles": [
+        "support"
+      ],
+      "mechanic_tags": [
+        "拉条",
+        "暴击"
+      ],
+      "level80_stats": {
+        "hp": 1242.0,
+        "attack": 582.0,
+        "defense": 534.0,
+        "speed": 99.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "增益辅助"
+      ],
+      "engine_tags": [
+        "拉条",
+        "暴击"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "战技拉条并提升暴击伤害，是暴击主C的经典引擎。",
+      "model": "manual_review"
+    },
+    "1015": {
+      "name": "Archer",
+      "path": "巡猎",
+      "element": "量子",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "追加攻击"
+      ],
+      "level80_stats": {
+        "hp": 1164.0,
+        "attack": 621.0,
+        "defense": 485.0,
+        "speed": 105.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "追加攻击",
+        "暴击直伤"
+      ],
+      "engine_tags": [
+        "追加攻击"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "充能箭雨追击主C，高频消耗战技点。",
+      "model": "manual_review"
+    },
+    "1014": {
+      "name": "Saber",
+      "path": "毁灭",
+      "element": "风",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "能量"
+      ],
+      "level80_stats": {
+        "hp": 1242.0,
+        "attack": 602.0,
+        "defense": 655.0,
+        "speed": 101.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "暴击直伤"
+      ],
+      "engine_tags": [
+        "能量"
+      ],
+      "sp_profile": "neutral",
+      "core_mechanic": "风伤爆发输出，普攻回能支撑高频终结技。",
+      "model": "manual_review"
+    },
+    "1006": {
+      "name": "银狼",
+      "path": "虚无",
+      "element": "量子",
+      "roles": [
+        "support",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "减防",
+        "击破",
+        "弱点植入"
+      ],
+      "level80_stats": {
+        "hp": 1048.0,
+        "attack": 640.0,
+        "defense": 461.0,
+        "speed": 107.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "减抗辅助"
+      ],
+      "engine_tags": [
+        "减抗",
+        "减防",
+        "击破",
+        "弱点植入"
+      ],
+      "sp_profile": "neutral",
+      "core_mechanic": "植入弱点、降防降抗，破盾后减免全抗。",
+      "model": "manual_review"
+    },
+    "1005": {
+      "name": "卡芙卡",
+      "path": "虚无",
+      "element": "雷",
+      "roles": [
+        "support",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "持续伤害",
+        "追加攻击"
+      ],
+      "level80_stats": {
+        "hp": 1087.0,
+        "attack": 679.0,
+        "defense": 485.0,
+        "speed": 100.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "持续伤害"
+      ],
+      "engine_tags": [
+        "持续伤害",
+        "追加攻击"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "DoT 体系引爆器：终结技引爆全部持续伤害并追加雷伤。",
+      "model": "manual_review"
+    },
+    "1004": {
+      "name": "瓦尔特",
+      "path": "虚无",
+      "element": "虚数",
+      "roles": [
+        "support",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "减速",
+        "推条",
+        "易伤",
+        "负面效果"
+      ],
+      "level80_stats": {
+        "hp": 1125.0,
+        "attack": 621.0,
+        "defense": 509.0,
+        "speed": 102.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "减抗辅助"
+      ],
+      "engine_tags": [
+        "减速",
+        "推条",
+        "易伤",
+        "负面效果"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "禁锢减速推条，持续施加负面效果为黄泉充能。",
+      "model": "manual_review"
+    },
+    "1003": {
+      "name": "姬子",
+      "path": "智识",
+      "element": "火",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "击破",
+        "追加攻击"
+      ],
+      "level80_stats": {
+        "hp": 1048.0,
+        "attack": 757.0,
+        "defense": 437.0,
+        "speed": 96.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "追加攻击",
+        "暴击直伤"
+      ],
+      "engine_tags": [
+        "减抗",
+        "击破",
+        "追加攻击"
+      ],
+      "sp_profile": "neutral",
+      "core_mechanic": "弱点击破后触发追击，战技群攻带灼烧。",
+      "model": "manual_review"
+    },
+    "1312": {
+      "name": "米沙",
+      "path": "毁灭",
+      "element": "冰",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "冻结",
+        "多段攻击",
+        "战技点联动"
+      ],
+      "level80_stats": {
+        "hp": 1270.0,
+        "attack": 600.0,
+        "defense": 397.0,
+        "speed": 96.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "暴击直伤"
+      ],
+      "engine_tags": [
+        "冻结",
+        "多段攻击",
+        "战技点联动"
+      ],
+      "sp_profile": "neutral",
+      "core_mechanic": "冻结控场的多段群攻输出。",
+      "model": "manual_review"
+    },
+    "1301": {
+      "name": "加拉赫",
+      "path": "丰饶",
+      "element": "火",
+      "roles": [
+        "sustain"
+      ],
+      "mechanic_tags": [
+        "击破"
+      ],
+      "level80_stats": {
+        "hp": 1305.0,
+        "attack": 529.0,
+        "defense": 441.0,
+        "speed": 98.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "生存辅助",
+        "超击破"
+      ],
+      "engine_tags": [
+        "击破"
+      ],
+      "sp_profile": "positive",
+      "core_mechanic": "击破加成的丰饶生存，攻击回血产点。",
+      "model": "manual_review"
+    },
+    "1224": {
+      "name": "三月七",
+      "path": "巡猎",
+      "element": "虚数",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "击破",
+        "拉条"
+      ],
+      "level80_stats": {
+        "hp": 1058.0,
+        "attack": 564.0,
+        "defense": 441.0,
+        "speed": 102.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "超击破"
+      ],
+      "engine_tags": [
+        "击破",
+        "拉条"
+      ],
+      "sp_profile": "positive",
+      "core_mechanic": "提供护盾与击破增益，辅助单体击破输出。",
+      "model": "manual_review"
+    },
+    "1223": {
+      "name": "貊泽",
+      "path": "巡猎",
+      "element": "雷",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "追加攻击"
+      ],
+      "level80_stats": {
+        "hp": 811.0,
+        "attack": 600.0,
+        "defense": 353.0,
+        "speed": 111.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "追加攻击"
+      ],
+      "engine_tags": [
+        "追加攻击"
+      ],
+      "sp_profile": "neutral",
+      "core_mechanic": "标记敌人的巡猎追击副C。",
+      "model": "manual_review"
+    },
+    "1215": {
+      "name": "寒鸦",
+      "path": "同谐",
+      "element": "物理",
+      "roles": [
+        "support"
+      ],
+      "mechanic_tags": [
+        "增伤",
+        "战技点",
+        "攻击",
+        "速度"
+      ],
+      "level80_stats": {
+        "hp": 917.0,
+        "attack": 564.0,
+        "defense": 353.0,
+        "speed": 110.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "增益辅助"
+      ],
+      "engine_tags": [
+        "增伤",
+        "战技点",
+        "攻击",
+        "速度"
+      ],
+      "sp_profile": "positive",
+      "core_mechanic": "产战技点并提升速度与攻击，适配耗点主C。",
+      "model": "manual_review"
+    },
+    "1214": {
+      "name": "雪衣",
+      "path": "毁灭",
+      "element": "量子",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "击破",
+        "追加攻击"
+      ],
+      "level80_stats": {
+        "hp": 1058.0,
+        "attack": 600.0,
+        "defense": 397.0,
+        "speed": 103.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "追加攻击",
+        "超击破"
+      ],
+      "engine_tags": [
+        "减抗",
+        "击破",
+        "追加攻击"
+      ],
+      "sp_profile": "neutral",
+      "core_mechanic": "击破转追击的量子输出，吃击破特攻。",
+      "model": "manual_review"
+    },
+    "1210": {
+      "name": "桂乃芬",
+      "path": "虚无",
+      "element": "火",
+      "roles": [
+        "support",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "持续伤害"
+      ],
+      "level80_stats": {
+        "hp": 882.0,
+        "attack": 582.0,
+        "defense": 441.0,
+        "speed": 106.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "持续伤害"
+      ],
+      "engine_tags": [
+        "持续伤害"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "火化 DoT 施加者，终结技引爆灼烧。",
+      "model": "manual_review"
+    },
+    "1207": {
+      "name": "驭空",
+      "path": "同谐",
+      "element": "虚数",
+      "roles": [
+        "support"
+      ],
+      "mechanic_tags": [
+        "击破",
+        "暴击"
+      ],
+      "level80_stats": {
+        "hp": 917.0,
+        "attack": 600.0,
+        "defense": 375.0,
+        "speed": 107.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "增益辅助"
+      ],
+      "engine_tags": [
+        "击破",
+        "暴击"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "攻击与暴击加成辅助，需要配速控制 buff 覆盖。",
+      "model": "manual_review"
+    },
+    "1206": {
+      "name": "素裳",
+      "path": "巡猎",
+      "element": "物理",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "击破",
+        "拉条"
+      ],
+      "level80_stats": {
+        "hp": 917.0,
+        "attack": 564.0,
+        "defense": 419.0,
+        "speed": 107.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "暴击直伤",
+        "超击破"
+      ],
+      "engine_tags": [
+        "减抗",
+        "击破",
+        "拉条"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "物理巡猎，降防与击破拉条服务速攻。",
+      "model": "manual_review"
+    },
+    "1202": {
+      "name": "停云",
+      "path": "同谐",
+      "element": "雷",
+      "roles": [
+        "support"
+      ],
+      "mechanic_tags": [
+        "增伤",
+        "攻击",
+        "能量",
+        "附加伤害"
+      ],
+      "level80_stats": {
+        "hp": 847.0,
+        "attack": 529.0,
+        "defense": 397.0,
+        "speed": 112.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "增益辅助"
+      ],
+      "engine_tags": [
+        "增伤",
+        "攻击",
+        "能量",
+        "附加伤害"
+      ],
+      "sp_profile": "positive",
+      "core_mechanic": "攻击加成与能量充电双引擎，终结技附雷。",
+      "model": "manual_review"
+    },
+    "1201": {
+      "name": "青雀",
+      "path": "智识",
+      "element": "量子",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "强化普攻",
+        "战技点",
+        "扩散",
+        "随机"
+      ],
+      "level80_stats": {
+        "hp": 1023.0,
+        "attack": 653.0,
+        "defense": 441.0,
+        "speed": 98.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "暴击直伤"
+      ],
+      "engine_tags": [
+        "强化普攻",
+        "战技点",
+        "扩散",
+        "随机"
+      ],
+      "sp_profile": "positive",
+      "core_mechanic": "筛点强化普攻的群攻智识，最产战技点的输出。",
+      "model": "manual_review"
+    },
+    "1111": {
+      "name": "卢卡",
+      "path": "虚无",
+      "element": "物理",
+      "roles": [
+        "support",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "持续伤害"
+      ],
+      "level80_stats": {
+        "hp": 917.0,
+        "attack": 582.0,
+        "defense": 485.0,
+        "speed": 103.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "持续伤害"
+      ],
+      "engine_tags": [
+        "持续伤害"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "拳击灼烧 DoT 副C，需要近身叠层。",
+      "model": "manual_review"
+    },
+    "1110": {
+      "name": "玲可",
+      "path": "丰饶",
+      "element": "量子",
+      "roles": [
+        "sustain"
+      ],
+      "mechanic_tags": [
+        "治疗"
+      ],
+      "level80_stats": {
+        "hp": 1058.0,
+        "attack": 494.0,
+        "defense": 551.0,
+        "speed": 100.0
+      },
+      "primary_stat": "hp",
+      "archetypes": [
+        "生存辅助"
+      ],
+      "engine_tags": [
+        "治疗"
+      ],
+      "sp_profile": "positive",
+      "core_mechanic": "量子治疗并附加强化，治疗量吃生命上限。",
+      "model": "manual_review"
+    },
+    "1109": {
+      "name": "虎克",
+      "path": "毁灭",
+      "element": "火",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "持续伤害"
+      ],
+      "level80_stats": {
+        "hp": 1341.0,
+        "attack": 617.0,
+        "defense": 353.0,
+        "speed": 94.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "持续伤害",
+        "暴击直伤"
+      ],
+      "engine_tags": [
+        "持续伤害"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "灼烧火伤输出，强化战技消耗战技点。",
+      "model": "manual_review"
+    },
+    "1108": {
+      "name": "桑博",
+      "path": "虚无",
+      "element": "风",
+      "roles": [
+        "support",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "持续伤害"
+      ],
+      "level80_stats": {
+        "hp": 1023.0,
+        "attack": 617.0,
+        "defense": 397.0,
+        "speed": 102.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "持续伤害"
+      ],
+      "engine_tags": [
+        "持续伤害"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "风化叠层施加者，为 DoT 体系铺伤。",
+      "model": "manual_review"
+    },
+    "1106": {
+      "name": "佩拉",
+      "path": "虚无",
+      "element": "冰",
+      "roles": [
+        "support",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "减防"
+      ],
+      "level80_stats": {
+        "hp": 988.0,
+        "attack": 547.0,
+        "defense": 463.0,
+        "speed": 105.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "减抗辅助"
+      ],
+      "engine_tags": [
+        "减防"
+      ],
+      "sp_profile": "positive",
+      "core_mechanic": "终结技大范围减防，是减防体系的核心辅助。",
+      "model": "manual_review"
+    },
+    "1105": {
+      "name": "娜塔莎",
+      "path": "丰饶",
+      "element": "物理",
+      "roles": [
+        "sustain"
+      ],
+      "mechanic_tags": [
+        "治疗"
+      ],
+      "level80_stats": {
+        "hp": 1164.0,
+        "attack": 476.0,
+        "defense": 507.0,
+        "speed": 98.0
+      },
+      "primary_stat": "hp",
+      "archetypes": [
+        "生存辅助"
+      ],
+      "engine_tags": [
+        "治疗"
+      ],
+      "sp_profile": "positive",
+      "core_mechanic": "单体急救与持续回复，治疗量吃生命上限。",
+      "model": "manual_review"
+    },
+    "1103": {
+      "name": "希露瓦",
+      "path": "智识",
+      "element": "雷",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "持续伤害"
+      ],
+      "level80_stats": {
+        "hp": 917.0,
+        "attack": 653.0,
+        "defense": 375.0,
+        "speed": 104.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "持续伤害",
+        "暴击直伤"
+      ],
+      "engine_tags": [
+        "持续伤害"
+      ],
+      "sp_profile": "hungry",
+      "core_mechanic": "智识雷伤并施加感电持续伤害。",
+      "model": "manual_review"
+    },
+    "1013": {
+      "name": "黑塔",
+      "path": "智识",
+      "element": "冰",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "追加攻击"
+      ],
+      "level80_stats": {
+        "hp": 953.0,
+        "attack": 582.0,
+        "defense": 397.0,
+        "speed": 100.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "追加攻击",
+        "暴击直伤"
+      ],
+      "engine_tags": [
+        "追加攻击"
+      ],
+      "sp_profile": "neutral",
+      "core_mechanic": "转圈圈追击收割残局，击破触发额外追击。",
+      "model": "manual_review"
+    },
+    "1009": {
+      "name": "艾丝妲",
+      "path": "同谐",
+      "element": "火",
+      "roles": [
+        "support"
+      ],
+      "mechanic_tags": [
+        "减抗"
+      ],
+      "level80_stats": {
+        "hp": 1023.0,
+        "attack": 512.0,
+        "defense": 463.0,
+        "speed": 106.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "增益辅助"
+      ],
+      "engine_tags": [
+        "减抗"
+      ],
+      "sp_profile": "positive",
+      "core_mechanic": "叠加攻击力与全队速度加成，终结技回能。",
+      "model": "manual_review"
+    },
+    "1008": {
+      "name": "阿兰",
+      "path": "毁灭",
+      "element": "雷",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "低血量",
+        "减伤",
+        "生命消耗",
+        "自身治疗"
+      ],
+      "level80_stats": {
+        "hp": 1200.0,
+        "attack": 600.0,
+        "defense": 331.0,
+        "speed": 102.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "暴击直伤"
+      ],
+      "engine_tags": [
+        "低血量",
+        "减伤",
+        "生命消耗",
+        "自身治疗"
+      ],
+      "sp_profile": "neutral",
+      "core_mechanic": "低血量增伤的雷伤输出，自带战技治疗。",
+      "model": "manual_review"
+    },
+    "1002": {
+      "name": "丹恒",
+      "path": "巡猎",
+      "element": "风",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "减抗"
+      ],
+      "level80_stats": {
+        "hp": 882.0,
+        "attack": 547.0,
+        "defense": 397.0,
+        "speed": 110.0
+      },
+      "primary_stat": "attack",
+      "archetypes": [
+        "暴击直伤"
+      ],
+      "engine_tags": [
+        "减抗"
+      ],
+      "sp_profile": "neutral",
+      "core_mechanic": "巡猎单体风伤，终结技降风抗。",
+      "model": "manual_review"
+    },
+    "1001": {
+      "name": "三月七",
+      "path": "存护",
+      "element": "冰",
+      "roles": [
+        "sustain"
+      ],
+      "mechanic_tags": [
+        "护盾"
+      ],
+      "level80_stats": {
+        "hp": 1058.0,
+        "attack": 512.0,
+        "defense": 573.0,
+        "speed": 101.0
+      },
+      "primary_stat": "defense",
+      "archetypes": [
+        "生存辅助"
+      ],
+      "engine_tags": [
+        "护盾"
+      ],
+      "sp_profile": "neutral",
+      "core_mechanic": "提供单体护盾与冻结反制，护盾量吃防御力。",
+      "model": "manual_review"
+    }
+  },
+  "report": {
+    "generated_at": "2026-08-29T07:35:03.804274+00:00",
+    "total": 95,
+    "llm_classified": 21,
+    "manual_review": 74,
+    "rule_fallback": 0,
+    "missing_markdown": [
+      "开拓者·欢愉（星）",
+      "开拓者·欢愉（穹）",
+      "开拓者·记忆（星）",
+      "开拓者·记忆（穹）",
+      "开拓者·同谐（星）",
+      "开拓者·同谐（穹）",
+      "开拓者·存护（星）",
+      "开拓者·存护（穹）",
+      "开拓者·毁灭（星）",
+      "开拓者·毁灭（穹）",
+      "姬子·启行",
+      "千冶·刃",
+      "丹恒·腾荒",
+      "阮·梅",
+      "丹恒·饮月"
+    ],
+    "primary_stat_distribution": {
+      "attack": 80,
+      "hp": 12,
+      "defense": 3
+    },
+    "sp_profile_distribution": {
+      "hungry": 43,
+      "neutral": 30,
+      "positive": 22
+    },
+    "archetype_distribution": {
+      "暴击直伤": 39,
+      "追加攻击": 27,
+      "生存辅助": 15,
+      "增益辅助": 14,
+      "减抗辅助": 12,
+      "超击破": 11,
+      "持续伤害": 9,
+      "召唤": 5,
+      "记忆忆灵": 5,
+      "黄泉充能": 1
+    }
+  }
+}

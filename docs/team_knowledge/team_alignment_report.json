@@ -1,0 +1,448 @@
+{
+  "generated_at": "2026-07-29T10:59:48.258086+00:00",
+  "source_count": 92,
+  "record_count": 92,
+  "unresolved_count": 73,
+  "unresolved": [
+    {
+      "source_character_id": "1006",
+      "source_file": "1006_1085_银狼.md",
+      "raw_name": "开拓者•记忆",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1008",
+      "source_file": "1008_380_阿兰.md",
+      "raw_name": "开拓者•记忆",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1014",
+      "source_file": "1014_5339_Saber.md",
+      "raw_name": "开拓者•记忆",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1015",
+      "source_file": "1015_5338_Archer.md",
+      "raw_name": "开拓者•记忆",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1101",
+      "source_file": "1101_453_布洛妮娅.md",
+      "raw_name": "辅助位",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1102",
+      "source_file": "1102_317_希儿.md",
+      "raw_name": "开拓者•记忆",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1103",
+      "source_file": "1103_423_希露瓦.md",
+      "raw_name": "开拓者•记忆",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1104",
+      "source_file": "1104_424_杰帕德.md",
+      "raw_name": "开拓者•记忆",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1105",
+      "source_file": "1105_46_娜塔莎.md",
+      "raw_name": "任意主C",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1105",
+      "source_file": "1105_46_娜塔莎.md",
+      "raw_name": "任意辅助",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1105",
+      "source_file": "1105_46_娜塔莎.md",
+      "raw_name": "开拓者·毁灭",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1107",
+      "source_file": "1107_414_克拉拉.md",
+      "raw_name": "拉条辅助",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1107",
+      "source_file": "1107_414_克拉拉.md",
+      "raw_name": "仙舟三月七",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1111",
+      "source_file": "1111_1325_卢卡.md",
+      "raw_name": "开拓者•同谐",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1112",
+      "source_file": "1112_1709_托帕&账账.md",
+      "raw_name": "双C",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1203",
+      "source_file": "1203_1188_罗刹.md",
+      "raw_name": "开拓者•记忆",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1203",
+      "source_file": "1203_1188_罗刹.md",
+      "raw_name": "仙舟三月七",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1204",
+      "source_file": "1204_389_景元.md",
+      "raw_name": "光环/负面辅助",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1205",
+      "source_file": "1205_1214_刃.md",
+      "raw_name": "开拓者•记忆",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1206",
+      "source_file": "1206_412_素裳.md",
+      "raw_name": "开拓者•记忆",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1206",
+      "source_file": "1206_412_素裳.md",
+      "raw_name": "开拓者•同谐",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1207",
+      "source_file": "1207_1187_驭空.md",
+      "raw_name": "开拓者•记忆",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1209",
+      "source_file": "1209_565_彦卿.md",
+      "raw_name": "辅c",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1209",
+      "source_file": "1209_565_彦卿.md",
+      "raw_name": "仙舟三月七",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1211",
+      "source_file": "1211_564_白露.md",
+      "raw_name": "任意",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1212",
+      "source_file": "1212_1708_镜流.md",
+      "raw_name": "辅助位",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1214",
+      "source_file": "1214_1872_雪衣.md",
+      "raw_name": "核心辅助",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1218",
+      "source_file": "1218_3058_椒丘.md",
+      "raw_name": "黄泉队",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1220",
+      "source_file": "1220_3501_飞霄.md",
+      "raw_name": "仙舟三月七",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1221",
+      "source_file": "1221_3056_云璃.md",
+      "raw_name": "仙舟三月七",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1222",
+      "source_file": "1222_3502_灵砂.md",
+      "raw_name": "开拓者•同谐",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1222",
+      "source_file": "1222_3502_灵砂.md",
+      "raw_name": "仙舟三月七",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1223",
+      "source_file": "1223_3505_貊泽.md",
+      "raw_name": "仙舟三月七",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1224",
+      "source_file": "1224_3121_三月七.md",
+      "raw_name": "双C",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1225",
+      "source_file": "1225_4175_忘归人.md",
+      "raw_name": "开拓者•同谐",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1303",
+      "source_file": "1303_1874_阮·梅.md",
+      "raw_name": "开拓者•同谐",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1304",
+      "source_file": "1304_2302_砂金.md",
+      "raw_name": "仙舟三月七",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1306",
+      "source_file": "1306_2087_花火.md",
+      "raw_name": "开拓者•记忆",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1310",
+      "source_file": "1310_2674_流萤.md",
+      "raw_name": "开拓者•同谐",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1313",
+      "source_file": "1313_4174_星期日.md",
+      "raw_name": "开拓者•记忆",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1314",
+      "source_file": "1314_2675_翡翠.md",
+      "raw_name": "开拓者•记忆",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1315",
+      "source_file": "1315_2526_波提欧.md",
+      "raw_name": "开拓者•同谐",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1317",
+      "source_file": "1317_3732_乱破.md",
+      "raw_name": "开拓者•同谐",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1317",
+      "source_file": "1317_3732_乱破.md",
+      "raw_name": "仙舟三月七",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1321",
+      "source_file": "1321_6025_大丽花.md",
+      "raw_name": "开拓者•同谐",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1401",
+      "source_file": "1401_4439_大黑塔.md",
+      "raw_name": "智识副C",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1401",
+      "source_file": "1401_4439_大黑塔.md",
+      "raw_name": "开拓者•记忆",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1402",
+      "source_file": "1402_4440_阿格莱雅.md",
+      "raw_name": "开拓者•记忆",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1403",
+      "source_file": "1403_4608_缇宝.md",
+      "raw_name": "开拓者•记忆",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1404",
+      "source_file": "1404_4609_万敌.md",
+      "raw_name": "拉条辅助",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1404",
+      "source_file": "1404_4609_万敌.md",
+      "raw_name": "光环/负面辅助",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1404",
+      "source_file": "1404_4609_万敌.md",
+      "raw_name": "开拓者•记忆",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1405",
+      "source_file": "1405_4917_那刻夏.md",
+      "raw_name": "光环/负面辅助",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1405",
+      "source_file": "1405_4917_那刻夏.md",
+      "raw_name": "开拓者•记忆",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1406",
+      "source_file": "1406_5109_赛飞儿.md",
+      "raw_name": "光环/负面辅助",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1407",
+      "source_file": "1407_4916_遐蝶.md",
+      "raw_name": "开拓者•记忆",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1408",
+      "source_file": "1408_5107_白厄.md",
+      "raw_name": "拉条辅助",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1409",
+      "source_file": "1409_5108_风堇.md",
+      "raw_name": "开拓者•记忆",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1412",
+      "source_file": "1412_5583_刻律德菈.md",
+      "raw_name": "开拓者•记忆",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1413",
+      "source_file": "1413_5736_长夜月.md",
+      "raw_name": "开拓者•记忆",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1414",
+      "source_file": "1414_5737_丹恒·腾荒.md",
+      "raw_name": "开拓者•记忆",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1501",
+      "source_file": "1501_6747_火花.md",
+      "raw_name": "欢愉角色",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1505",
+      "source_file": "1505_7045_绯英.md",
+      "raw_name": "开拓者•欢愉",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "1506",
+      "source_file": "1506_7044_银狼LV.999.md",
+      "raw_name": "开拓者•欢愉",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "8001",
+      "source_file": "8001_3124_开拓者·毁灭（穹）.md",
+      "raw_name": "仙舟三月七",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "8002",
+      "source_file": "8002_3128_开拓者·毁灭（星）.md",
+      "raw_name": "仙舟三月七",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "8003",
+      "source_file": "8003_3123_开拓者·存护（穹）.md",
+      "raw_name": "开拓者•存护",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "8003",
+      "source_file": "8003_3123_开拓者·存护（穹）.md",
+      "raw_name": "仙舟三月七",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "8004",
+      "source_file": "8004_3127_开拓者·存护（星）.md",
+      "raw_name": "开拓者•存护",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "8004",
+      "source_file": "8004_3127_开拓者·存护（星）.md",
+      "raw_name": "仙舟三月七",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "8005",
+      "source_file": "8005_411_开拓者·同谐（穹）.md",
+      "raw_name": "超击破核心",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "8006",
+      "source_file": "8006_872_开拓者·同谐（星）.md",
+      "raw_name": "超击破核心",
+      "reason": "not_found"
+    },
+    {
+      "source_character_id": "8006",
+      "source_file": "8006_872_开拓者·同谐（星）.md",
+      "raw_name": "开拓者•同谐",
+      "reason": "not_found"
+    }
+  ],
+  "low_confidence_count": 0,
+  "low_confidence_profiles": []
+}

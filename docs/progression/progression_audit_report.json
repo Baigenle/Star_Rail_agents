@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-07-26T04:00:46.011004+00:00",
+  "coverage_basis": "character_catalog",
+  "coverage_note": "材料绑定覆盖生成时角色图鉴展示的全部角色。",
+  "character_count": 95,
+  "complete_count": 95,
+  "issue_count": 0,
+  "issues": [],
+  "not_planned_in_current_version": [
+    "经验书",
+    "升级过程信用点",
+    "行迹小节点",
+    "额外能力",
+    "属性节点"
+  ]
+}

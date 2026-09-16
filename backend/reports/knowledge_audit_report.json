@@ -1,0 +1,122 @@
+{
+  "summary": {
+    "markdown_count": 2548,
+    "usable_count": 2519,
+    "rejected_count": 29,
+    "error_count": 29,
+    "warning_count": 12
+  },
+  "datasets": [
+    {
+      "name": "characters",
+      "markdown_count": 97,
+      "usable_count": 87,
+      "rejected_count": 10,
+      "json_count": 1,
+      "placeholder_document_count": 97,
+      "versions": [
+        "4.4.51"
+      ],
+      "errors": [
+        "8001_',_'enhance'__[],_'desc'__'A_who_boarded_the_Astral_Express.__chose_to_travel_with_the_Astral_Expres.md: malformed_title",
+        "8002_',_'enhance'__[],_'desc'__'A_who_boarded_the_Astral_Express.__chose_to_travel_with_the_Astral_Expres.md: malformed_title",
+        "8003_',_'enhance'__[],_'desc'__'A_who_boarded_the_Astral_Express.__chose_to_travel_with_the_Astral_Expres.md: malformed_title",
+        "8004_',_'enhance'__[],_'desc'__'A_who_boarded_the_Astral_Express.__chose_to_travel_with_the_Astral_Expres.md: malformed_title",
+        "8005_',_'enhance'__[],_'desc'__'A_who_boarded_the_Astral_Express.__chose_to_travel_with_the_Astral_Expres.md: malformed_title",
+        "8006_',_'enhance'__[],_'desc'__'A_who_boarded_the_Astral_Express.__chose_to_travel_with_the_Astral_Expres.md: malformed_title",
+        "8007_',_'enhance'__[],_'desc'__'A_who_boarded_the_Astral_Express.__chose_to_travel_with_the_Astral_Expres.md: malformed_title",
+        "8008_',_'enhance'__[],_'desc'__'A_who_boarded_the_Astral_Express.__chose_to_travel_with_the_Astral_Expres.md: malformed_title",
+        "8009_',_'enhance'__[],_'desc'__'A_who_boarded_the_Astral_Express.__chose_to_travel_with_the_Astral_Expres.md: malformed_title",
+        "8010_',_'enhance'__[],_'desc'__'A_who_boarded_the_Astral_Express.__chose_to_travel_with_the_Astral_Expres.md: malformed_title"
+      ],
+      "warnings": [
+        "duplicate_titles:[\"', 'enhance': [], 'desc': 'A who boarded the Astral Express.\\\\\\nchose to travel with the Astral Express to eliminate the dangers posed by the Stellaron.', 'ko': '', 'zh': '', 'ja': ''}\", '三月七']",
+        "manifest_stale_recovered_file:1213:1213_丹恒•饮月.md",
+        "manifest_stale_recovered_file:1303:1303_阮•梅.md",
+        "manifest_stale_recovered_file:1414:1414_丹恒•腾荒.md",
+        "manifest_stale_recovered_file:1507:1507_千冶•刃.md",
+        "manifest_stale_recovered_file:1510:1510_姬子•启行.md",
+        "manifest_stale_recovered_file:1512:1512_知更鸟•晴歌.md",
+        "manifest_stale_recovered_file:1513:1513_砂金•戏浪.md",
+        "unresolved_display_placeholders:97_documents"
+      ]
+    },
+    {
+      "name": "lightcones",
+      "markdown_count": 169,
+      "usable_count": 169,
+      "rejected_count": 0,
+      "json_count": 1,
+      "placeholder_document_count": 0,
+      "versions": [
+        "4.4.51"
+      ],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "name": "relics",
+      "markdown_count": 60,
+      "usable_count": 60,
+      "rejected_count": 0,
+      "json_count": 1,
+      "placeholder_document_count": 0,
+      "versions": [
+        "4.4.51"
+      ],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "name": "monsters",
+      "markdown_count": 628,
+      "usable_count": 628,
+      "rejected_count": 0,
+      "json_count": 1,
+      "placeholder_document_count": 10,
+      "versions": [
+        "4.4.51"
+      ],
+      "errors": [],
+      "warnings": [
+        "duplicate_titles:['1号输出端', '2号输出端', '「同音共律的来日」', '「所有或一无所有」', '「授勋」', '「星核猎手」卡芙卡', '「星核猎手」卡芙卡（完整）', '「星核猎手」萨姆', '「枪尖」', '「盾」', '「贼灵」巴特鲁斯', '「身陷樊笼的往昔」', '「醉于盛会的此刻」', '「飞霄」之影', '「齐响诗班」神主日', '不死神实•幻胧', '丰饶扑满', '丰饶玄莲', '丰饶玄鹿', '丰饶玄鹿（完整）', '乐变化天人•终', '云骑骁卫•彦卿', '云骑骁卫•彦卿（完整）', '全自动魔仙棒', '公司组长幻象', '兴风者', '冥魂渡者，死龙残躯，玻吕刻斯', '冰锋', '助手涂鸦•催稿', '助手涂鸦•拖稿', '助手涂鸦•赶稿', '千面斯科特', '反物质引擎', '反造物主，流溢之恨', '可可利亚', '可可利亚（完整）', '可可利亚，虚妄之母', '史瓦罗', '史瓦罗（完整）', '合金机铠•帕姆王', '吞神子嗣', '哀悯长臂', '哀歌塞壬•无情无餍的深海妖', '喰云之首', '嘉实之杪', '外宇宙之冰', '外宇宙之炎', '天谴先锋', '天谴哲人', '天谴斗士', '天谴歌队', '天谴猎手', '始作画者，无量塔绘世', '存护扑满', '巨剑守护•陷坚挫锐的先锋将', '幼蛰虫', '幽府武弁', '序列扑满', '征服或被征服', '忆域迷因「何物朝向死亡」', '忆域迷因「狂怒褪去之壳」', '惊梦剧团的十七分熟', '戮力双雄•歃血联战的黑斗士', '戮力双雄•铸铠御戈的白卫士', '扑三弟', '扑大哥', '扑老二', '攻击性阅读物', '散装英雄王', '无尽寒冬之槊', '旧梦的回声', '昔在、今在、永在的剧目', '昔在、今在、永在的剧目（完整）', '月夜天马', '末日兽', '杰帕德', '杰帕德（完整）', '杰帕德（幻象）', '极乐颠倒•邪愿莲华主', '次蛰虫', '步离战首•呼雷', '残破容器', '毁灭扑满', '永眠墓碣', '波涛夫人', '流星铁鹰', '流浪者', '浪花侍女', '火花大会@Official', '灾虐的右手', '狮震八方•皎阳似火的飞翼兽', '玄爪狼卒', '王下一桶', '王下一桶（投影）', '破晓战队•曙光', '破晓战队•灰烬', '破晓战队•苍翼', '破晓战队•赤焰', '破灭玄莲', '示死祸源：深魇蝗灾', '第一位天才，隐德来希，赞达尔', '繁花之杪', '缃叶之杪', '肃风之杪', '自动机兵•战犬', '自动机兵•灰熊（完整）', '自动机兵•蜘蛛', '自动机兵•齿狼（完整）', '至高，至阳，天空的化身', '至黑之剑，盗火行者', '蕉研组的助蕉', '蕉研组的筑梦蕉师', '蕉研组的谐乐蕉师', '蕉研组的财富蕉师', '虚卒•篡改者', '虚卒•践踏者', '虫群•真蛰虫', '虫群•真蛰虫（完整）', '蚀心影魔•浑流奔涌的腐坏者', '蚀月心兽&「飞霄」之影', '蚀月狼卒', '蚀蛰虫', '蚕食者之影', '蛮神，疯王，纷争的化身', '被囚禁的秘所思', '被操弄的逻各斯', '裂维之爪', '资深员工•组长', '辅助机械臂单元', '辟尘之尾', '金人司阍', '金血忆灵•裁定忘却之形', '银枝', '银鬃尉官（完整）', '银鬃近卫', '阳雷之鸦', '颁赐者，千军首，天谴之矛', '飞剑', '魔法少女急袭剧团', '黎明的左手', '黑日狮鹫', '黑潮参议', '黑潮斗将', '黑潮朽弓', '黑潮蚀刃', '黑潮蚀斧', '？？？']",
+        "unresolved_display_placeholders:10_documents"
+      ]
+    },
+    {
+      "name": "items",
+      "markdown_count": 1594,
+      "usable_count": 1575,
+      "rejected_count": 19,
+      "json_count": 3,
+      "placeholder_document_count": 0,
+      "versions": [
+        "4.4.51"
+      ],
+      "errors": [
+        "123001_123001.md: missing_item_display_name",
+        "140110_140110.md: missing_item_display_name",
+        "140214_140214.md: missing_item_display_name",
+        "140217_140217.md: missing_item_display_name",
+        "140300_140300.md: missing_item_display_name",
+        "140301_140301.md: missing_item_display_name",
+        "140304_140304.md: missing_item_display_name",
+        "140305_140305.md: missing_item_display_name",
+        "140332_140332.md: missing_item_display_name",
+        "140333_140333.md: missing_item_display_name",
+        "140353_140353.md: missing_item_display_name",
+        "140359_140359.md: missing_item_display_name",
+        "140360_140360.md: missing_item_display_name",
+        "140411_140411.md: missing_item_display_name",
+        "140467_140467.md: missing_item_display_name",
+        "149990_149990.md: missing_item_display_name",
+        "149997_149997.md: missing_item_display_name",
+        "149998_149998.md: missing_item_display_name",
+        "149999_149999.md: missing_item_display_name"
+      ],
+      "warnings": [
+        "duplicate_titles:['...', '…', '《冒险鼹鼠队：隐形的宝藏》「货箱便是钥匙」', '《冒险鼹鼠队：隐形的宝藏》前言', '《冒险鼹鼠队：隐形的宝藏》后记', '《冒险鼹鼠队：隐形的宝藏》意外的羊皮纸', '《冒险鼹鼠队：隐形的宝藏》战地追迹', '《冒险鼹鼠队：隐形的宝藏》消失的矿灯', '《冒险鼹鼠队：隐形的宝藏》目录', '「欢欣」齿轮', '万寿无情丹', '三月七与列车组的合影', '三月七与朋友们的合影', '与三月七的合照', '中央房间钥匙', '信任的证明', '信标数据', '光桥钥匙', '冷吃夕红鱼', '右侧房间钥匙', '启行的祝福', '吹捧的通稿', '噼咔白葡萄汽水', '岩烧山珍串', '巨大谜钟的破碎内心•其一', '巨大谜钟的破碎内心•其三', '巨大谜钟的破碎内心•其二', '开拓豪侠传', '手写信笺', '权限卡', '模拟算法', '橡木蛋糕卷', '演练证明', '特调「再见，吾爱」', '特调「到坟场的车票」', '特调「向邪恶追索」', '特调「梦中之梦」', '特调「漫长的告别」', '特调「谋杀与创造之时」', '特调「过早的埋葬」', '特调「长眠不醒」', '特调「黄金国」', '猎彗人来信', '砂金的匣子', '砂金的行李袋', '科鲁泽的信件', '经典苏乐达', '美梦脆筒（三种口味）', '薯条圣代', '被撕碎的手稿', '记忆盲点·人体自燃', '记忆盲点·信任危机', '记忆盲点·天才俱乐部成员', '记载着神秘仪式的卷轴', '贝洛伯格红肠', '逸散岁阳', '金钢镚骑士团', '钟表披萨（整张）', '院门的钥匙', '雪原大乱炖', '霜纹鲑面包', '飞碟堡', '黑面包汽水冰山']"
+      ]
+    }
+  ]
+}

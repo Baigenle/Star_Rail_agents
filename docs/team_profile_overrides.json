@@ -1,0 +1,58 @@
+{
+  "1006": {
+    "roles": ["support", "sub_dps"],
+    "mechanic_tags": ["减抗", "减防", "弱点植入"]
+  },
+  "1102": {
+    "roles": ["dps"],
+    "mechanic_tags": ["再现", "暴击"]
+  },
+  "1208": {
+    "roles": ["sustain", "support"],
+    "mechanic_tags": ["减伤", "暴击"]
+  },
+  "1306": {
+    "roles": ["support"],
+    "mechanic_tags": ["拉条", "暴击"]
+  },
+  "1501": {
+    "roles": ["dps", "sub_dps"],
+    "mechanic_tags": ["强化普攻", "战技点", "随机", "多段攻击", "扩散"]
+  },
+  "1110": {
+    "roles": ["sustain"],
+    "mechanic_tags": ["治疗"]
+  },
+  "1203": {
+    "roles": ["sustain"],
+    "mechanic_tags": ["治疗", "自动治疗", "净化", "驱散"]
+  },
+  "1107": {
+    "roles": ["dps"],
+    "mechanic_tags": ["追加攻击", "反击", "减伤", "嘲讽"]
+  },
+  "1004": {
+    "roles": ["support", "sub_dps"],
+    "mechanic_tags": ["减速", "推条", "易伤", "负面效果"]
+  },
+  "1312": {
+    "roles": ["dps"],
+    "mechanic_tags": ["冻结", "战技点联动", "多段攻击"]
+  },
+  "1215": {
+    "roles": ["support"],
+    "mechanic_tags": ["战技点", "增伤", "攻击", "速度"]
+  },
+  "1202": {
+    "roles": ["support"],
+    "mechanic_tags": ["能量", "攻击", "增伤", "附加伤害"]
+  },
+  "1201": {
+    "roles": ["dps"],
+    "mechanic_tags": ["战技点", "强化普攻", "随机", "扩散"]
+  },
+  "1008": {
+    "roles": ["dps"],
+    "mechanic_tags": ["生命消耗", "低血量", "自身治疗", "减伤"]
+  }
+}

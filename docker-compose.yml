@@ -1,0 +1,180 @@
+services:
+  postgres:
+    image: postgres:16.6-alpine
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-star_rail_agents}
+      POSTGRES_USER: ${POSTGRES_USER:-star_rail}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-change-me}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "${POSTGRES_HOST_PORT:-5432}:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-star_rail} -d ${POSTGRES_DB:-star_rail_agents}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  etcd:
+    image: quay.io/coreos/etcd:v3.5.18
+    environment:
+      ETCD_AUTO_COMPACTION_MODE: revision
+      ETCD_AUTO_COMPACTION_RETENTION: "1000"
+      ETCD_QUOTA_BACKEND_BYTES: "4294967296"
+      ETCD_SNAPSHOT_COUNT: "50000"
+    command: etcd -advertise-client-urls=http://127.0.0.1:2379 -listen-client-urls=http://0.0.0.0:2379 --data-dir /etcd
+    volumes:
+      - etcd_data:/etcd
+    healthcheck:
+      test: ["CMD", "etcdctl", "endpoint", "health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  minio:
+    image: minio/minio:RELEASE.2024-12-18T13-15-44Z
+    environment:
+      MINIO_ACCESS_KEY: minioadmin
+      MINIO_SECRET_KEY: minioadmin
+    command: minio server /minio_data --console-address ":9001"
+    volumes:
+      - minio_data:/minio_data
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  milvus-standalone:
+    image: milvusdb/milvus:v2.5.2
+    command: ["milvus", "run", "standalone"]
+    security_opt:
+      - seccomp:unconfined
+    environment:
+      ETCD_ENDPOINTS: etcd:2379
+      MINIO_ADDRESS: minio:9000
+    volumes:
+      - milvus_data:/var/lib/milvus
+    ports:
+      # 19530 is commonly occupied by another local Milvus installation.
+      - "${MILVUS_HOST_PORT:-19531}:19530"
+    depends_on:
+      etcd:
+        condition: service_healthy
+      minio:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9091/healthz"]
+      interval: 15s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+    restart: unless-stopped
+
+  bge-model-service:
+    build:
+      context: ./model_service
+    environment:
+      BGE_EMBEDDING_PATH: /models/bge-m3
+      BGE_RERANKER_PATH: /models/bge-reranker-v2-m3
+      BGE_DEVICE: ${BGE_DEVICE:-cuda}
+      BGE_PRELOAD: ${BGE_PRELOAD:-true}
+      BGE_EMBEDDING_BATCH_SIZE: ${BGE_EMBEDDING_BATCH_SIZE:-8}
+      BGE_RERANKER_BATCH_SIZE: ${BGE_RERANKER_BATCH_SIZE:-4}
+      BGE_RERANKER_MAX_LENGTH: ${BGE_RERANKER_MAX_LENGTH:-512}
+    volumes:
+      # 模型权重不进入镜像或 Git；可在 .env 中指向其他磁盘的共享目录。
+      - ${BGE_MODELS_PATH:-./models}:/models:ro
+    ports:
+      - "${BGE_SERVICE_HOST_PORT:-8001}:8001"
+    gpus: all
+    shm_size: "2gb"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8001/health')"]
+      interval: 15s
+      timeout: 5s
+      retries: 10
+      start_period: 120s
+    restart: unless-stopped
+
+  backend:
+    build:
+      context: ./backend
+    environment:
+      APP_ENV: ${APP_ENV:-development}
+      APP_NAME: ${APP_NAME:-Star Rail Agents}
+      APP_VERSION: ${APP_VERSION:-0.1.0}
+      API_V1_PREFIX: ${API_V1_PREFIX:-/api/v1}
+      BACKEND_CORS_ORIGINS: '${BACKEND_CORS_ORIGINS:-["http://localhost:5173","http://localhost:8030"]}'
+      DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-star_rail}:${POSTGRES_PASSWORD:-change-me}@postgres:5432/${POSTGRES_DB:-star_rail_agents}
+      MILVUS_HOST: milvus-standalone
+      MILVUS_PORT: 19530
+      MILVUS_COLLECTION: ${MILVUS_COLLECTION:-star_rail_knowledge_bge_m3_v2}
+      RAG_TOP_K: ${RAG_TOP_K:-5}
+      BGE_SERVICE_URL: http://bge-model-service:8001
+      DEFAULT_LLM_PROVIDER: ${DEFAULT_LLM_PROVIDER:-mock}
+      LLM_TEMPERATURE: ${LLM_TEMPERATURE:-0.1}
+      MAIN_AGENT_IMPL: ${MAIN_AGENT_IMPL:-fc}
+      ZHIPU_API_KEY: ${ZHIPU_API_KEY:-}
+      ZHIPU_BASE_URL: ${ZHIPU_BASE_URL:-https://open.bigmodel.cn/api/paas/v4}
+      ZHIPU_MODEL: ${ZHIPU_MODEL:-glm-4.6}
+      ZHIPU_FLASH_MODEL: ${ZHIPU_FLASH_MODEL:-glm-4-flash}
+      ZHIPU_PRO_MODEL: ${ZHIPU_PRO_MODEL:-glm-4.6}
+      ZHIPU_INTENT_MODEL: ${ZHIPU_INTENT_MODEL:-glm-4.7}
+      DEEPSEEK_API_KEY: ${DEEPSEEK_API_KEY:-}
+      DEEPSEEK_BASE_URL: ${DEEPSEEK_BASE_URL:-https://api.deepseek.com}
+      DEEPSEEK_MODEL: ${DEEPSEEK_MODEL:-deepseek-v4-flash}
+      DEEPSEEK_FLASH_MODEL: ${DEEPSEEK_FLASH_MODEL:-deepseek-v4-flash}
+      DEEPSEEK_PRO_MODEL: ${DEEPSEEK_PRO_MODEL:-deepseek-v4-pro}
+      QWEN_API_KEY: ${QWEN_API_KEY:-}
+      QWEN_BASE_URL: ${QWEN_BASE_URL:-https://dashscope.aliyuncs.com/compatible-mode/v1}
+      QWEN_MODEL: ${QWEN_MODEL:-qwen-plus}
+      JWT_SECRET_KEY: ${JWT_SECRET_KEY:-development-only-change-this-secret}
+      JWT_EXPIRE_MINUTES: ${JWT_EXPIRE_MINUTES:-1440}
+      # 默认不授予任何管理员身份，必须由部署者在 .env 中显式填写注册用户名。
+      ADMIN_USERNAMES: ${ADMIN_USERNAMES:-}
+      DOCS_ROOT: /data/knowledge
+    volumes:
+      - ${KNOWLEDGE_DATA_PATH:-./docs}:/data/knowledge:ro
+      # 图片可单独放在另一块磁盘，并覆盖知识根目录中的对应分类。
+      - ${GAME_ASSETS_PATH:-./docs/data/assets}/characters:/data/knowledge/data/assets/characters:ro
+      - ${GAME_ASSETS_PATH:-./docs/data/assets}/items:/data/knowledge/data/assets/items:ro
+      - ${GAME_ASSETS_PATH:-./docs/data/assets}/lightcones:/data/knowledge/data/assets/lightcones:ro
+      - ${GAME_ASSETS_PATH:-./docs/data/assets}/relics:/data/knowledge/data/assets/relics:ro
+      - ${GAME_ASSETS_PATH:-./docs/data/assets}/manifest:/data/knowledge/data/assets/manifest:ro
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      milvus-standalone:
+        condition: service_healthy
+      bge-model-service:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/api/v1/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        VITE_API_BASE_URL: /api/v1
+    ports:
+      - "${FRONTEND_HOST_PORT:-8030}:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+  etcd_data:
+  minio_data:
+  milvus_data:

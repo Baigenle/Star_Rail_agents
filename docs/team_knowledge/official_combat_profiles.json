@@ -1,0 +1,1476 @@
+{
+  "generated_at": "2026-07-29T10:59:48.258086+00:00",
+  "characters": {
+    "8010": {
+      "character_id": "8010",
+      "name": "开拓者·欢愉（星）",
+      "element": "雷",
+      "path": "欢愉",
+      "roles": [
+        "dps",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "拉条",
+        "暴击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "8009": {
+      "character_id": "8009",
+      "name": "开拓者·欢愉（穹）",
+      "element": "雷",
+      "path": "欢愉",
+      "roles": [
+        "dps",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "拉条",
+        "暴击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "8008": {
+      "character_id": "8008",
+      "name": "开拓者·记忆（星）",
+      "element": "冰",
+      "path": "记忆",
+      "roles": [
+        "dps",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "召唤",
+        "拉条",
+        "暴击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "8007": {
+      "character_id": "8007",
+      "name": "开拓者·记忆（穹）",
+      "element": "冰",
+      "path": "记忆",
+      "roles": [
+        "dps",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "召唤",
+        "拉条",
+        "暴击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "8006": {
+      "character_id": "8006",
+      "name": "开拓者·同谐（星）",
+      "element": "虚数",
+      "path": "同谐",
+      "roles": [
+        "support"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "击破"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "8005": {
+      "character_id": "8005",
+      "name": "开拓者·同谐（穹）",
+      "element": "虚数",
+      "path": "同谐",
+      "roles": [
+        "support"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "击破"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "8004": {
+      "character_id": "8004",
+      "name": "开拓者·存护（星）",
+      "element": "火",
+      "path": "存护",
+      "roles": [
+        "sustain"
+      ],
+      "mechanic_tags": [
+        "护盾"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "8003": {
+      "character_id": "8003",
+      "name": "开拓者·存护（穹）",
+      "element": "火",
+      "path": "存护",
+      "roles": [
+        "sustain"
+      ],
+      "mechanic_tags": [
+        "护盾"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "8002": {
+      "character_id": "8002",
+      "name": "开拓者·毁灭（星）",
+      "element": "物理",
+      "path": "毁灭",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "击破"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "8001": {
+      "character_id": "8001",
+      "name": "开拓者·毁灭（穹）",
+      "element": "物理",
+      "path": "毁灭",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "击破"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1510": {
+      "character_id": "1510",
+      "name": "姬子·启行",
+      "element": "火",
+      "path": "智识",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "击破",
+        "暴击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1509": {
+      "character_id": "1509",
+      "name": "吉尔伽美什",
+      "element": "雷",
+      "path": "毁灭",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "减防",
+        "追加攻击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1508": {
+      "character_id": "1508",
+      "name": "远坂凛",
+      "element": "量子",
+      "path": "智识",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "暴击",
+        "追加攻击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1507": {
+      "character_id": "1507",
+      "name": "千冶·刃",
+      "element": "火",
+      "path": "虚无",
+      "roles": [
+        "support",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "减防",
+        "暴击",
+        "追加攻击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1506": {
+      "character_id": "1506",
+      "name": "银狼LV.999",
+      "element": "虚数",
+      "path": "欢愉",
+      "roles": [
+        "dps",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "拉条",
+        "暴击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1505": {
+      "character_id": "1505",
+      "name": "绯英",
+      "element": "物理",
+      "path": "欢愉",
+      "roles": [
+        "dps",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "暴击",
+        "追加攻击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1504": {
+      "character_id": "1504",
+      "name": "不死途",
+      "element": "雷",
+      "path": "巡猎",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "减防",
+        "追加攻击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1502": {
+      "character_id": "1502",
+      "name": "爻光",
+      "element": "物理",
+      "path": "欢愉",
+      "roles": [
+        "dps",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "减抗"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1501": {
+      "character_id": "1501",
+      "name": "火花",
+      "element": "火",
+      "path": "欢愉",
+      "roles": [
+        "dps",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "多段攻击",
+        "强化普攻",
+        "战技点",
+        "扩散",
+        "随机"
+      ],
+      "confidence": 0.9,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1415": {
+      "character_id": "1415",
+      "name": "昔涟",
+      "element": "冰",
+      "path": "记忆",
+      "roles": [
+        "dps",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "召唤",
+        "暴击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1414": {
+      "character_id": "1414",
+      "name": "丹恒·腾荒",
+      "element": "物理",
+      "path": "存护",
+      "roles": [
+        "sustain"
+      ],
+      "mechanic_tags": [
+        "护盾",
+        "追加攻击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1413": {
+      "character_id": "1413",
+      "name": "长夜月",
+      "element": "冰",
+      "path": "记忆",
+      "roles": [
+        "dps",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "召唤",
+        "拉条",
+        "暴击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1412": {
+      "character_id": "1412",
+      "name": "刻律德菈",
+      "element": "风",
+      "path": "同谐",
+      "roles": [
+        "support"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "暴击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1410": {
+      "character_id": "1410",
+      "name": "海瑟音",
+      "element": "物理",
+      "path": "虚无",
+      "roles": [
+        "support",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "减防",
+        "持续伤害"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1409": {
+      "character_id": "1409",
+      "name": "风堇",
+      "element": "风",
+      "path": "记忆",
+      "roles": [
+        "dps",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "召唤",
+        "拉条",
+        "治疗",
+        "能量"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1408": {
+      "character_id": "1408",
+      "name": "白厄",
+      "element": "物理",
+      "path": "毁灭",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "拉条",
+        "暴击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1407": {
+      "character_id": "1407",
+      "name": "遐蝶",
+      "element": "量子",
+      "path": "记忆",
+      "roles": [
+        "dps",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "召唤",
+        "拉条"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1406": {
+      "character_id": "1406",
+      "name": "赛飞儿",
+      "element": "量子",
+      "path": "虚无",
+      "roles": [
+        "support",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "追加攻击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1405": {
+      "character_id": "1405",
+      "name": "那刻夏",
+      "element": "风",
+      "path": "智识",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "减抗"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1404": {
+      "character_id": "1404",
+      "name": "万敌",
+      "element": "虚数",
+      "path": "毁灭",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "拉条"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1403": {
+      "character_id": "1403",
+      "name": "缇宝",
+      "element": "量子",
+      "path": "同谐",
+      "roles": [
+        "support"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "追加攻击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1402": {
+      "character_id": "1402",
+      "name": "阿格莱雅",
+      "element": "雷",
+      "path": "记忆",
+      "roles": [
+        "dps",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "召唤",
+        "拉条",
+        "能量"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1401": {
+      "character_id": "1401",
+      "name": "大黑塔",
+      "element": "冰",
+      "path": "智识",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "拉条"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1321": {
+      "character_id": "1321",
+      "name": "大丽花",
+      "element": "火",
+      "path": "虚无",
+      "roles": [
+        "support",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "减防",
+        "击破",
+        "追加攻击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1317": {
+      "character_id": "1317",
+      "name": "乱破",
+      "element": "虚数",
+      "path": "智识",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "击破"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1315": {
+      "character_id": "1315",
+      "name": "波提欧",
+      "element": "物理",
+      "path": "巡猎",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "击破",
+        "能量"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1314": {
+      "character_id": "1314",
+      "name": "翡翠",
+      "element": "量子",
+      "path": "智识",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "暴击",
+        "追加攻击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1313": {
+      "character_id": "1313",
+      "name": "星期日",
+      "element": "虚数",
+      "path": "同谐",
+      "roles": [
+        "support"
+      ],
+      "mechanic_tags": [
+        "召唤",
+        "拉条",
+        "暴击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1310": {
+      "character_id": "1310",
+      "name": "流萤",
+      "element": "火",
+      "path": "毁灭",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "击破",
+        "拉条",
+        "能量"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1309": {
+      "character_id": "1309",
+      "name": "知更鸟",
+      "element": "物理",
+      "path": "同谐",
+      "roles": [
+        "support"
+      ],
+      "mechanic_tags": [
+        "拉条",
+        "暴击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1308": {
+      "character_id": "1308",
+      "name": "黄泉",
+      "element": "雷",
+      "path": "虚无",
+      "roles": [
+        "support",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "击破"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1307": {
+      "character_id": "1307",
+      "name": "黑天鹅",
+      "element": "风",
+      "path": "虚无",
+      "roles": [
+        "support",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "减防",
+        "持续伤害"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1306": {
+      "character_id": "1306",
+      "name": "花火",
+      "element": "量子",
+      "path": "同谐",
+      "roles": [
+        "support"
+      ],
+      "mechanic_tags": [
+        "拉条",
+        "暴击"
+      ],
+      "confidence": 0.9,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1305": {
+      "character_id": "1305",
+      "name": "真理医生",
+      "element": "虚数",
+      "path": "巡猎",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "追加攻击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1304": {
+      "character_id": "1304",
+      "name": "砂金",
+      "element": "虚数",
+      "path": "存护",
+      "roles": [
+        "sustain"
+      ],
+      "mechanic_tags": [
+        "护盾",
+        "暴击",
+        "追加攻击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1303": {
+      "character_id": "1303",
+      "name": "阮·梅",
+      "element": "冰",
+      "path": "同谐",
+      "roles": [
+        "support"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "击破"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1302": {
+      "character_id": "1302",
+      "name": "银枝",
+      "element": "物理",
+      "path": "智识",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "暴击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1225": {
+      "character_id": "1225",
+      "name": "忘归人",
+      "element": "火",
+      "path": "虚无",
+      "roles": [
+        "support",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "减防",
+        "击破",
+        "拉条"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1222": {
+      "character_id": "1222",
+      "name": "灵砂",
+      "element": "火",
+      "path": "丰饶",
+      "roles": [
+        "sustain"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "击破",
+        "拉条",
+        "追加攻击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1221": {
+      "character_id": "1221",
+      "name": "云璃",
+      "element": "物理",
+      "path": "毁灭",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "暴击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1220": {
+      "character_id": "1220",
+      "name": "飞霄",
+      "element": "风",
+      "path": "巡猎",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "击破",
+        "追加攻击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1218": {
+      "character_id": "1218",
+      "name": "椒丘",
+      "element": "火",
+      "path": "虚无",
+      "roles": [
+        "support",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "持续伤害"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1217": {
+      "character_id": "1217",
+      "name": "藿藿",
+      "element": "风",
+      "path": "丰饶",
+      "roles": [
+        "sustain"
+      ],
+      "mechanic_tags": [
+        "治疗"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1213": {
+      "character_id": "1213",
+      "name": "丹恒·饮月",
+      "element": "虚数",
+      "path": "毁灭",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "暴击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1212": {
+      "character_id": "1212",
+      "name": "镜流",
+      "element": "冰",
+      "path": "毁灭",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "拉条",
+        "暴击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1211": {
+      "character_id": "1211",
+      "name": "白露",
+      "element": "雷",
+      "path": "丰饶",
+      "roles": [
+        "sustain"
+      ],
+      "mechanic_tags": [
+        "治疗"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1209": {
+      "character_id": "1209",
+      "name": "彦卿",
+      "element": "冰",
+      "path": "巡猎",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "暴击",
+        "追加攻击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1208": {
+      "character_id": "1208",
+      "name": "符玄",
+      "element": "量子",
+      "path": "存护",
+      "roles": [
+        "sustain",
+        "support"
+      ],
+      "mechanic_tags": [
+        "减伤",
+        "护盾",
+        "暴击"
+      ],
+      "confidence": 0.9,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1205": {
+      "character_id": "1205",
+      "name": "刃",
+      "element": "风",
+      "path": "毁灭",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "能量",
+        "追加攻击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1204": {
+      "character_id": "1204",
+      "name": "景元",
+      "element": "雷",
+      "path": "智识",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "召唤",
+        "追加攻击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1203": {
+      "character_id": "1203",
+      "name": "罗刹",
+      "element": "虚数",
+      "path": "丰饶",
+      "roles": [
+        "sustain"
+      ],
+      "mechanic_tags": [
+        "净化",
+        "治疗",
+        "自动治疗",
+        "驱散"
+      ],
+      "confidence": 0.9,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1112": {
+      "character_id": "1112",
+      "name": "托帕&账账",
+      "element": "火",
+      "path": "巡猎",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "召唤",
+        "拉条",
+        "暴击",
+        "追加攻击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1107": {
+      "character_id": "1107",
+      "name": "克拉拉",
+      "element": "物理",
+      "path": "毁灭",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "减伤",
+        "反击",
+        "嘲讽",
+        "追加攻击"
+      ],
+      "confidence": 0.9,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1104": {
+      "character_id": "1104",
+      "name": "杰帕德",
+      "element": "冰",
+      "path": "存护",
+      "roles": [
+        "sustain"
+      ],
+      "mechanic_tags": [
+        "护盾"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1102": {
+      "character_id": "1102",
+      "name": "希儿",
+      "element": "量子",
+      "path": "巡猎",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "再现",
+        "暴击"
+      ],
+      "confidence": 0.9,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1101": {
+      "character_id": "1101",
+      "name": "布洛妮娅",
+      "element": "风",
+      "path": "同谐",
+      "roles": [
+        "support"
+      ],
+      "mechanic_tags": [
+        "拉条",
+        "暴击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1015": {
+      "character_id": "1015",
+      "name": "Archer",
+      "element": "量子",
+      "path": "巡猎",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "追加攻击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1014": {
+      "character_id": "1014",
+      "name": "Saber",
+      "element": "风",
+      "path": "毁灭",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "能量"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1006": {
+      "character_id": "1006",
+      "name": "银狼",
+      "element": "量子",
+      "path": "虚无",
+      "roles": [
+        "support",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "减防",
+        "击破",
+        "弱点植入"
+      ],
+      "confidence": 0.9,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1005": {
+      "character_id": "1005",
+      "name": "卡芙卡",
+      "element": "雷",
+      "path": "虚无",
+      "roles": [
+        "support",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "持续伤害",
+        "追加攻击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1004": {
+      "character_id": "1004",
+      "name": "瓦尔特",
+      "element": "虚数",
+      "path": "虚无",
+      "roles": [
+        "support",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "减速",
+        "推条",
+        "易伤",
+        "负面效果"
+      ],
+      "confidence": 0.9,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1003": {
+      "character_id": "1003",
+      "name": "姬子",
+      "element": "火",
+      "path": "智识",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "击破",
+        "追加攻击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1312": {
+      "character_id": "1312",
+      "name": "米沙",
+      "element": "冰",
+      "path": "毁灭",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "冻结",
+        "多段攻击",
+        "战技点联动"
+      ],
+      "confidence": 0.9,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1301": {
+      "character_id": "1301",
+      "name": "加拉赫",
+      "element": "火",
+      "path": "丰饶",
+      "roles": [
+        "sustain"
+      ],
+      "mechanic_tags": [
+        "击破"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1224": {
+      "character_id": "1224",
+      "name": "三月七",
+      "element": "虚数",
+      "path": "巡猎",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "击破",
+        "拉条"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1223": {
+      "character_id": "1223",
+      "name": "貊泽",
+      "element": "雷",
+      "path": "巡猎",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "追加攻击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1215": {
+      "character_id": "1215",
+      "name": "寒鸦",
+      "element": "物理",
+      "path": "同谐",
+      "roles": [
+        "support"
+      ],
+      "mechanic_tags": [
+        "增伤",
+        "战技点",
+        "攻击",
+        "速度"
+      ],
+      "confidence": 0.9,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1214": {
+      "character_id": "1214",
+      "name": "雪衣",
+      "element": "量子",
+      "path": "毁灭",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "击破",
+        "追加攻击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1210": {
+      "character_id": "1210",
+      "name": "桂乃芬",
+      "element": "火",
+      "path": "虚无",
+      "roles": [
+        "support",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "持续伤害"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1207": {
+      "character_id": "1207",
+      "name": "驭空",
+      "element": "虚数",
+      "path": "同谐",
+      "roles": [
+        "support"
+      ],
+      "mechanic_tags": [
+        "击破",
+        "暴击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1206": {
+      "character_id": "1206",
+      "name": "素裳",
+      "element": "物理",
+      "path": "巡猎",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "减抗",
+        "击破",
+        "拉条"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1202": {
+      "character_id": "1202",
+      "name": "停云",
+      "element": "雷",
+      "path": "同谐",
+      "roles": [
+        "support"
+      ],
+      "mechanic_tags": [
+        "增伤",
+        "攻击",
+        "能量",
+        "附加伤害"
+      ],
+      "confidence": 0.9,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1201": {
+      "character_id": "1201",
+      "name": "青雀",
+      "element": "量子",
+      "path": "智识",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "强化普攻",
+        "战技点",
+        "扩散",
+        "随机"
+      ],
+      "confidence": 0.9,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1111": {
+      "character_id": "1111",
+      "name": "卢卡",
+      "element": "物理",
+      "path": "虚无",
+      "roles": [
+        "support",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "持续伤害"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1110": {
+      "character_id": "1110",
+      "name": "玲可",
+      "element": "量子",
+      "path": "丰饶",
+      "roles": [
+        "sustain"
+      ],
+      "mechanic_tags": [
+        "治疗"
+      ],
+      "confidence": 0.9,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1109": {
+      "character_id": "1109",
+      "name": "虎克",
+      "element": "火",
+      "path": "毁灭",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "持续伤害"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1108": {
+      "character_id": "1108",
+      "name": "桑博",
+      "element": "风",
+      "path": "虚无",
+      "roles": [
+        "support",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "持续伤害"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1106": {
+      "character_id": "1106",
+      "name": "佩拉",
+      "element": "冰",
+      "path": "虚无",
+      "roles": [
+        "support",
+        "sub_dps"
+      ],
+      "mechanic_tags": [
+        "减防"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1105": {
+      "character_id": "1105",
+      "name": "娜塔莎",
+      "element": "物理",
+      "path": "丰饶",
+      "roles": [
+        "sustain"
+      ],
+      "mechanic_tags": [
+        "治疗"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1103": {
+      "character_id": "1103",
+      "name": "希露瓦",
+      "element": "雷",
+      "path": "智识",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "持续伤害"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1013": {
+      "character_id": "1013",
+      "name": "黑塔",
+      "element": "冰",
+      "path": "智识",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "追加攻击"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1009": {
+      "character_id": "1009",
+      "name": "艾丝妲",
+      "element": "火",
+      "path": "同谐",
+      "roles": [
+        "support"
+      ],
+      "mechanic_tags": [
+        "减抗"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1008": {
+      "character_id": "1008",
+      "name": "阿兰",
+      "element": "雷",
+      "path": "毁灭",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "低血量",
+        "减伤",
+        "生命消耗",
+        "自身治疗"
+      ],
+      "confidence": 0.9,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1002": {
+      "character_id": "1002",
+      "name": "丹恒",
+      "element": "风",
+      "path": "巡猎",
+      "roles": [
+        "dps"
+      ],
+      "mechanic_tags": [
+        "减抗"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    },
+    "1001": {
+      "character_id": "1001",
+      "name": "三月七",
+      "element": "冰",
+      "path": "存护",
+      "roles": [
+        "sustain"
+      ],
+      "mechanic_tags": [
+        "护盾"
+      ],
+      "confidence": 0.8,
+      "source": "official_catalog_and_normalized_supplement"
+    }
+  }
+}

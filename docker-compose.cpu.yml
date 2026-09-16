@@ -1,0 +1,6 @@
+services:
+  bge-model-service:
+    # 无 NVIDIA GPU 时使用；仍复用同一份本地模型，但首次载入与检索会明显更慢。
+    gpus: !reset []
+    environment:
+      BGE_DEVICE: cpu

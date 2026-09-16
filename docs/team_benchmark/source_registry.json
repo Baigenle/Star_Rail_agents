@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0.0",
+  "checked_at": "2026-07-28",
+  "sources": [
+    {
+      "id": "nanoka_local_4_4_51",
+      "type": "structured_game_snapshot",
+      "url": "https://hsr.nanoka.cc/",
+      "local_path": "docs/hsr_nanoka_characters",
+      "game_version": "4.4.51",
+      "fields": [
+        "character_base_stats",
+        "speed",
+        "taunt",
+        "ultimate_energy",
+        "skill_energy",
+        "skill_point_cost_or_gain",
+        "skill_descriptions"
+      ],
+      "trust": "versioned_mirror",
+      "usage": "静态机制和模拟输入",
+      "automated_refresh": false
+    },
+    {
+      "id": "dimbreath_turnbasedgamedata",
+      "type": "release_data_repository",
+      "url": "https://gitlab.com/Dimbreath/turnbasedgamedata",
+      "game_version": "4.3.0 at verification",
+      "fields": [
+        "characters",
+        "skills",
+        "enemies",
+        "stages",
+        "text_maps"
+      ],
+      "trust": "community_extracted_release_data",
+      "usage": "未来版本更新时与本地快照交叉验证",
+      "automated_refresh": false
+    },
+    {
+      "id": "prydwen_moc",
+      "type": "observational_statistics",
+      "url": "https://www.prydwen.gg/star-rail/memory-of-chaos",
+      "game_version": "4.2.1 at verification",
+      "sample_size": 16423,
+      "fields": [
+        "character_usage",
+        "team_usage",
+        "average_cycles"
+      ],
+      "trust": "third_party_aggregated",
+      "usage": "实战先验，只能在同版本、同层数和同统计口径内比较",
+      "automated_refresh": false
+    },
+    {
+      "id": "prydwen_pf",
+      "type": "observational_statistics",
+      "url": "https://www.prydwen.gg/star-rail/pure-fiction",
+      "game_version": "4.3.1",
+      "stat_date": "2026-06-25",
+      "sample_size": 12938,
+      "fields": [
+        "character_usage",
+        "team_usage",
+        "average_score"
+      ],
+      "trust": "third_party_aggregated",
+      "usage": "虚构叙事实战先验",
+      "automated_refresh": false
+    },
+    {
+      "id": "prydwen_as",
+      "type": "observational_statistics",
+      "url": "https://www.prydwen.gg/star-rail/apocalyptic-shadow",
+      "game_version": "4.3.1",
+      "stat_date": "2026-06-25",
+      "sample_size": 15624,
+      "fields": [
+        "character_usage",
+        "team_usage",
+        "average_score"
+      ],
+      "trust": "third_party_aggregated",
+      "usage": "末日幻影实战先验",
+      "automated_refresh": false
+    }
+  ],
+  "collection_policy": {
+    "require_version": true,
+    "require_stat_date": true,
+    "require_sample_size_for_observational_data": true,
+    "preserve_source_url": true,
+    "do_not_merge_different_modes": true,
+    "do_not_treat_usage_as_power": true,
+    "do_not_collect_private_player_profiles": true
+  }
+}
